@@ -1,0 +1,24 @@
+@charset "utf-8";
+// Vendors
+// Utils
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/functions";
+// Base
+@import "base/fonts";
+@import "base/reset";
+@import "base/typography";
+// Components
+@import "components/buttons";
+// Layout
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/forms";
+@import "layout/sidebar";
+@import "layout/footer";
+// Pages
+@import "pages/home";
+// Themes
+@import "themes/theme";
+
+/* main styles */

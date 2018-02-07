@@ -1,0 +1,121 @@
+/* Reset CSS */
+* {
+  -webkit-text-size-adjust: none; }
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, main {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: none; }
+
+body {
+  height: 100%;
+  position: relative;
+  background: #fff;
+  font: 14px/1.4 Arial, Helvetica, sans-serif;
+  color: #000;
+  min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+input, select, textarea {
+  vertical-align: top; }
+
+textarea {
+  overflow: auto; }
+
+.holder {
+  margin: 0 auto;
+  max-width: 980px;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .holder:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+.sp {
+  display: none; }
+
+.pc {
+  display: block; }
+
+@media only screen and (min-width: 768px) {
+  .sp {
+    display: none !important; }
+  .pc {
+    display: block !important; } }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1.2;
+  color: inherit; }
+
+h1 {
+  font-size: 30px;
+  margin: 0 0 36px; }
+
+h2 {
+  font-size: 27px;
+  margin: 0 0 32.4px; }
+
+h3 {
+  font-size: 24px;
+  margin: 0 0 28.8px; }
+
+h4 {
+  font-size: 21px;
+  margin: 0 0 25.2px; }
+
+h5 {
+  font-size: 17px;
+  margin: 0 0 20.4px; }
+
+h6 {
+  font-size: 15px;
+  margin: 0 0 18px; }
+
+p {
+  margin: 0 0 19.6px; }
+
+a {
+  color: #00f;
+  text-decoration: none;
+  vertical-align: baseline;
+  -webkit-tap-highlight-color: transparent; }
+  a:hover, a:focus {
+    text-decoration: none;
+    color: #00f; }
+
+/* main styles */
