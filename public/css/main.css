@@ -13,21 +13,21 @@
   font-style: normal; }
 
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat-Regular';
   src: url("../fonts/Montserrat-Regular.eot");
   src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'MontserratBold';
+  font-family: 'Montserrat-Bold';
   src: url("../fonts/Montserrat-Bold.eot");
   src: url("../fonts/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
-  font-family: 'MontserratSemi';
+  font-family: 'Montserrat-SemiBold';
   src: url("../fonts/Montserrat-SemiBold.eot");
   src: url("../fonts/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/Montserrat-SemiBold.woff") format("woff"), url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: 600;
@@ -79,7 +79,7 @@ body {
   height: 100%;
   position: relative;
   background: #F5E5D5;
-  font: 13px/1.4 "Montserrat", sans-serif;
+  font: 13px/1.4 "Montserrat-Regular", sans-serif;
   color: #1a171b;
   min-width: 320px;
   -webkit-font-smoothing: antialiased;
@@ -490,7 +490,36 @@ a {
   margin: 0 auto;
   padding: 0 15px;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  #main .breadcrumbs {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-align: center;
+        align-items: center;
+    margin-bottom: 10px; }
+    #main .breadcrumbs li {
+      margin-right: 20px;
+      position: relative; }
+      #main .breadcrumbs li:after {
+        content: '';
+        display: inline-block;
+        background: #ad9a88;
+        width: 1px;
+        height: 11px;
+        position: absolute;
+        right: -10px;
+        top: 4px; }
+      #main .breadcrumbs li:last-child:after {
+        display: none; }
+      #main .breadcrumbs li a {
+        font-family: 'Montserrat-Bold';
+        font-size: 11px;
+        color: #356e89;
+        letter-spacing: 0;
+        line-height: 15.6px; }
   #main .left-part {
     max-width: 840px;
     width: 100%;
@@ -595,6 +624,62 @@ a {
           margin-top: 9px;
           font-size: 20px;
           color: #416077; }
+    #main .left-part .candidate-list-detail > li {
+      -ms-flex-direction: column;
+          flex-direction: column;
+      border-top: 2px solid #244357;
+      margin-bottom: 30px; }
+      #main .left-part .candidate-list-detail > li .detail-title {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        padding: 18px 0;
+        position: relative; }
+        #main .left-part .candidate-list-detail > li .detail-title img {
+          width: 45px;
+          height: 45px;
+          margin-left: 10px;
+          margin-right: 20px; }
+        #main .left-part .candidate-list-detail > li .detail-title h5 {
+          font-family: Montserrat-Bold;
+          font-size: 18px;
+          color: #244357;
+          letter-spacing: 0;
+          line-height: 16px;
+          text-align: left;
+          width: 100%; }
+        #main .left-part .candidate-list-detail > li .detail-title span {
+          font-family: Montserrat-Bold;
+          font-size: 18px;
+          color: #416077;
+          letter-spacing: 0;
+          line-height: 16px;
+          text-align: right;
+          -ms-flex-negative: 0;
+              flex-shrink: 0; }
+        #main .left-part .candidate-list-detail > li .detail-title i {
+          font-style: normal;
+          font-family: Montserrat-Regular;
+          font-size: 11px;
+          color: #ad9a88;
+          letter-spacing: 0;
+          line-height: 15.6px;
+          text-align: right;
+          position: absolute;
+          top: 5px;
+          right: 10px; }
+      #main .left-part .candidate-list-detail > li ul {
+        width: 100%; }
+        #main .left-part .candidate-list-detail > li ul li {
+          min-height: 49px;
+          font-family: Montserrat-Bold;
+          font-size: 13px;
+          color: #416077;
+          letter-spacing: 0;
+          line-height: 16px;
+          text-align: left;
+          text-transform: uppercase; }
   #main aside {
     max-width: 300px;
     width: 100%; }
@@ -611,7 +696,7 @@ a {
             align-items: center;
         -ms-flex-pack: justify;
             justify-content: space-between; }
-        #main aside ul .title-li:mobile-only {
+        #main aside ul .title-li.mobile-only {
           display: none; }
         #main aside ul .title-li p {
           font-size: 13px;
@@ -684,6 +769,8 @@ a {
         border-top: 0; }
       #main aside .without-borders .title-li {
         border-bottom: 0; }
+      #main aside .without-borders .after-title-li.mobile-only {
+        display: none; }
       #main aside .without-borders .after-title-li p {
         font-size: 11px;
         color: #ad9a88;
@@ -802,6 +889,135 @@ a {
             letter-spacing: 0;
             text-align: left;
             border: 0; }
+  #main .left-part .candidate-map-holder {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+    #main .left-part .candidate-map-holder > div {
+      width: 100%; }
+      #main .left-part .candidate-map-holder > div p {
+        font-family: Montserrat-Bold;
+        font-size: 13px;
+        color: #244357;
+        letter-spacing: 0;
+        line-height: 15.6px;
+        margin-bottom: 20px;
+        text-transform: uppercase; }
+      #main .left-part .candidate-map-holder > div .map-holder {
+        margin: 16px 0;
+        padding: 16px 0;
+        border-top: 1px solid #dfcebd;
+        border-bottom: 1px solid #dfcebd; }
+        #main .left-part .candidate-map-holder > div .map-holder img {
+          display: block;
+          max-width: calc(100% - 40px);
+          margin: 0 auto; }
+      #main .left-part .candidate-map-holder > div span {
+        display: block;
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        color: #1a171b;
+        letter-spacing: 0;
+        line-height: 16px;
+        text-align: left; }
+        #main .left-part .candidate-map-holder > div span i {
+          font-family: Montserrat-Bold;
+          font-size: 11px;
+          color: #244357;
+          letter-spacing: 0;
+          line-height: 16px;
+          text-align: left;
+          font-style: normal; }
+      #main .left-part .candidate-map-holder > div b {
+        font-family: Montserrat-Light;
+        font-size: 12px;
+        color: #ad9a88; }
+      #main .left-part .candidate-map-holder > div form {
+        position: relative; }
+        #main .left-part .candidate-map-holder > div form input[type="text"] {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+              align-items: center;
+          padding-left: 16px;
+          background: #ffffff;
+          border-radius: 28px;
+          width: 100%;
+          height: 36px;
+          font-family: Montserrat-Regular;
+          font-size: 11px;
+          color: #6a6a6a;
+          text-align: left;
+          border: none;
+          outline: none;
+          margin-bottom: 20px; }
+        #main .left-part .candidate-map-holder > div form input[type="submit"] {
+          width: 17px;
+          height: 16px;
+          background: url(../images/search.png) no-repeat;
+          background-size: contain;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          right: 15px;
+          border: none;
+          outline: none;
+          font-size: 0;
+          cursor: pointer; }
+    #main .left-part .candidate-map-holder .candidate-list {
+      width: 100%;
+      border: none;
+      max-width: 416px;
+      width: 100%;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      margin-right: 15px;
+      border-right: 1px solid #ad9a88;
+      padding-right: 13px;
+      margin-bottom: 100px; }
+      #main .left-part .candidate-map-holder .candidate-listli:first-child .image-holder img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%; }
+      #main .left-part .candidate-map-holder .candidate-list li {
+        -ms-flex-align: start;
+            align-items: flex-start;
+        position: relative;
+        min-height: 80px;
+        padding: 12px 0; }
+        #main .left-part .candidate-map-holder .candidate-list li .image-holder {
+          max-width: 70px; }
+          #main .left-part .candidate-map-holder .candidate-list li .image-holder img {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            margin: 0; }
+        #main .left-part .candidate-map-holder .candidate-list li div h5 {
+          font-family: Montserrat-SemiBold;
+          font-size: 16px;
+          color: #1a171b;
+          letter-spacing: 0;
+          line-height: 22px;
+          text-align: left;
+          margin-bottom: 5px; }
+        #main .left-part .candidate-map-holder .candidate-list li div p {
+          font-family: Montserrat-Regular;
+          font-size: 11px;
+          color: #1a171b;
+          letter-spacing: 0;
+          line-height: 16px;
+          text-align: left; }
+        #main .left-part .candidate-map-holder .candidate-list li .digits {
+          font-family: Montserrat-SemiBold;
+          font-size: 18px;
+          color: #416077;
+          letter-spacing: 0;
+          text-align: right;
+          position: absolute;
+          right: 0;
+          top: 10px;
+          margin: 0; }
 
 @media (max-width: 1199px) {
   .a-masthead {
@@ -851,9 +1067,60 @@ a {
             height: 60px; }
           #main .left-part .candidate-list li .digits {
             font-size: 18px;
-            color: #416077; } }
+            color: #416077; }
+    #main .left-part .candidate-map-holder .candidate-list {
+      max-width: 330px;
+      margin-bottom: 100px; }
+      #main .left-part .candidate-map-holder .candidate-listli:first-child .image-holder img {
+        width: 40px;
+        height: 40px; }
+      #main .left-part .candidate-map-holder .candidate-list li {
+        min-height: 75px;
+        padding: 12px 0; }
+        #main .left-part .candidate-map-holder .candidate-list li .image-holder {
+          max-width: 50px; }
+          #main .left-part .candidate-map-holder .candidate-list li .image-holder img {
+            width: 40px;
+            height: 40px; }
+        #main .left-part .candidate-map-holder .candidate-list li div h5 {
+          font-size: 15px; }
+        #main .left-part .candidate-map-holder .candidate-list li .digits {
+          font-size: 14px;
+          top: 13px; }
+    #main .left-part .candidate-list-detail > li {
+      -ms-flex-direction: column;
+          flex-direction: column;
+      border-top: 2px solid #244357;
+      margin-bottom: 30px; }
+      #main .left-part .candidate-list-detail > li .detail-title {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        padding: 18px 0;
+        position: relative; }
+        #main .left-part .candidate-list-detail > li .detail-title img {
+          width: 45px;
+          height: 45px;
+          margin-left: 10px;
+          margin-right: 20px; }
+        #main .left-part .candidate-list-detail > li .detail-title h5 {
+          font-size: 16px;
+          line-height: 16px; }
+        #main .left-part .candidate-list-detail > li .detail-title span {
+          font-size: 16px;
+          line-height: 16px; }
+      #main .left-part .candidate-list-detail > li ul {
+        width: 100%; }
+        #main .left-part .candidate-list-detail > li ul li {
+          min-height: 49px;
+          font-size: 12px;
+          text-transform: uppercase; } }
 
 @media (max-width: 768px) {
+  .mobile-only {
+    display: -ms-flexbox !important;
+    display: flex !important; }
   .a-masthead #Amm2016Masthead {
     max-width: 714px; }
   .wrap-link .links-line {
@@ -913,7 +1180,7 @@ a {
               align-items: center;
           -ms-flex-pack: justify;
               justify-content: space-between; }
-          #main aside ul .title-li:mobile-only {
+          #main aside ul .title-li.mobile-only {
             display: block; }
         #main aside ul .view-more {
           width: 100%;
