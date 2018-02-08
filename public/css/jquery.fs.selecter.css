@@ -1,0 +1,285 @@
+/* 
+ * Selecter v3.2.3 - 2014-10-24 
+ * A jQuery plugin for replacing default select elements. Part of the Formstone Library. 
+ * http://formstone.it/selecter/ 
+ * 
+ * Copyright 2014 Ben Plum; MIT Licensed 
+ */
+
+
+.selecter {
+  position: relative;
+  display: flex;
+  z-index: 1;
+  max-width: 260px;
+  width: 100%;
+  justify-content: flex-end;
+
+}
+.selecter:focus {
+  box-shadow: none;
+  outline: none;
+}
+.selecter,
+.selecter * {
+  -webkit-user-select: none !important;
+     -moz-user-select: none !important;
+      -ms-user-select: none !important;
+          user-select: none !important;
+}
+.selecter,
+.selecter *,
+.selecter *:before,
+.selecter *:after {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+.selecter-element {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+}
+.selecter-element,
+.selecter-element:focus {
+  outline: none;
+}
+.no-opacity .selecter-element {
+  left: -999999px;
+}
+.selecter-selected {
+  position: relative;
+  background: transparent;
+  border:1px solid #416077 !important;
+  height: 30px;
+  cursor: pointer;
+  font-family:Montserrat-Bold;
+  font-size:11px;
+  color:#416077 !important;
+  text-align:left;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: clip;
+  z-index: 2;
+  border-radius: 23px;
+  display: flex !important;
+  align-items: center;
+  max-width: 260px;
+  width: 100%;
+  background: transparent;
+  padding-left: 15px;
+}
+#rate ~ .selecter-selected,
+#discount-status ~ .selecter-selected {
+  padding: 0 20px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 23px;
+}
+
+#rate ~ .selecter-selected:after,
+#discount-status ~ .selecter-selected:after {
+  right: 17px;
+  width: 10px;
+  height: 10px;
+  margin-top: -7px;
+}
+.open #rate ~ .selecter-selected:after,
+.open #discount-status ~ .selecter-selected:after {
+  transform: rotate(-45deg);  
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  margin-top: -2px;
+  transform: rotate(-43deg);
+}
+.open #rate ~ .selecter-selected,
+.open #discount-status ~ .selecter-selected {
+  border-radius: 23px 23px 0 0;
+}
+.selecter-selected:after {
+    border-color: #416077;
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    content: '';
+    display: block;
+    overflow: hidden;
+    right: 0;
+    position: absolute;
+    vertical-align: top;
+    width: 11px;
+    height: 11px;
+    top: 50%;
+    margin-top: -8px;
+    transform: rotate(135deg);
+    right: 13px;
+}
+.no-touch .selecter-selected:hover {
+  color: #333333;
+}
+.no-touch .selecter.disabled .selecter-selected:hover {
+  color: #cccccc;
+}
+.open .selecter-selected:after {
+  width: 11px;
+  height: 11px;
+  top: 50%;
+  margin-top: -2px;
+  transform: rotate(-43deg);
+}
+.selecter-options {
+  width: 100%;
+  max-height: 490px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border:1px solid #416077;
+  border-width: 0 1px 1px;
+  background:#f5e5d5;
+  display: none;
+  margin: 0;
+  overflow: auto;
+  overflow-x: hidden;
+  padding: 0;
+  z-index: 50;
+  border-radius: 0;
+  padding: 10px 32px 0 14px;
+}
+.selecter-options.scroller {
+  position: absolute;
+}
+.no-opacity .selecter-options {
+  width: auto;
+}
+.selecter-group {
+  border-bottom: 1px solid #cccccc;
+  color: #999999;
+  display: block;
+  font-size: 11px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+.selecter-item {
+  width: 100%;
+  background: #f5e5d5;
+  border-bottom: 1px solid #cccccc;
+  color: #222222;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0px 15px;
+  height: 21px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+}
+.selecter-item.placeholder {
+  display: none;
+}
+.selecter-item.selected {
+  background: #f5e5d5;
+}
+.selecter-item.disabled {
+  color: #999999;
+  cursor: default;
+}
+.selecter-item:first-child {
+  border-radius: 0;
+}
+.selecter-item:last-child {
+  border-bottom: 0;
+  border-radius: 0 0 2px 2px;
+}
+.no-touch .selecter-item:hover,
+.no-touch .selecter-item.selected:hover {
+  color: #333333;
+  background-color: #f5e5d5;
+}
+.selecter-item.disabled,
+.no-touch .selecter-item.disabled:hover {
+  color: #cccccc;
+  background-color: transparent;
+}
+.selecter.open {
+  z-index: 3;
+}
+.selecter.open .selecter-selected {
+  z-index: 51;
+  border-radius: 3px 3px 0 0;
+}
+.selecter.open .selecter-selected,
+.selecter.focus .selecter-selected {
+  background-color: transparent;
+}
+.selecter.cover .selecter-options {
+  border-width: 1px;
+  top: 0;
+  border-radius: 3px;
+}
+.selecter.cover .selecter-options .selecter-item.first {
+  border-radius: 3px 3px 0 0;
+}
+.selecter.cover.open .selecter-selected {
+  z-index: 49;
+  border-radius: 3px 3px 0 0;
+}
+.selecter.bottom .selecter-item:last-child {
+  border: none;
+}
+.selecter.bottom.open .selecter-selected {
+  border-radius: 16px 16px 0 0;
+}
+.selecter.bottom .cover .selecter-options {
+  top: auto;
+  bottom: 0;
+}
+.selecter.bottom .cover.open .selecter-selected {
+  border-radius: 3px;
+}
+.selecter.bottom .cover.open .selecter-options {
+  border-radius: 3px;
+}
+.selecter.multiple .selecter-options {
+  width: 100%;
+  position: static;
+  border-width: 1px;
+  display: block;
+  border-radius: 3px;
+  box-shadow: none;
+}
+.selecter.disabled .selecter-selected {
+  background: #f5e5d5;
+  border-color: #cccccc;
+  color: #cccccc;
+  cursor: default;
+}
+.selecter.disabled .selecter-options {
+  background: #f5e5d5;
+  border-color: #cccccc;
+}
+.selecter.disabled .selecter-group,
+.selecter.disabled .selecter-item {
+  border-color: #cccccc;
+  color: #cccccc;
+  cursor: default;
+}
+.selecter.disabled .selecter-item.selected,
+.no-touch .selecter.disabled .selecter-item.selected:hover {
+  background: #f5e5d5;
+}
+.selecter.disabled .selecter-item,
+.no-touch .selecter.disabled .selecter-item:hover {
+  color: #cccccc;
+  background-color: #f5e5d5;
+}
+.selecter-options.scroller {
+  overflow: hidden;
+}
+.selecter-options.scroller .scroller-content {
+  max-height: 260px;
+  padding: 0;
+}
+
