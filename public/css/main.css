@@ -595,9 +595,13 @@ a {
             color: #244357;
             margin-bottom: 10px; }
           #main .left-part .candidate-list li div h5 {
+            font-family: Montserrat-Bold;
             color: #244357;
-            text-transform: uppercase;
-            font-weight: 300; }
+            letter-spacing: 0;
+            line-height: 16px;
+            text-align: left;
+            margin-bottom: 5px;
+            text-transform: uppercase; }
           #main .left-part .candidate-list li div span {
             font-size: 11px;
             color: #1a171b;
@@ -611,9 +615,12 @@ a {
               text-align: left;
               font-style: normal; }
           #main .left-part .candidate-list li div p {
+            font-family: Montserrat-Regular;
             font-size: 13px;
             color: #1a171b;
+            letter-spacing: 0;
             line-height: 20px;
+            text-align: left;
             margin-bottom: 0; }
         #main .left-part .candidate-list li .digits {
           text-align: right;
@@ -622,8 +629,11 @@ a {
           -ms-flex-item-align: start;
               align-self: flex-start;
           margin-top: 9px;
-          font-size: 20px;
-          color: #416077; }
+          font-family: Montserrat-SemiBold;
+          font-size: 22px;
+          color: #416077;
+          letter-spacing: 0;
+          text-align: right; }
     #main .left-part .candidate-list-detail > li {
       -ms-flex-direction: column;
           flex-direction: column;
