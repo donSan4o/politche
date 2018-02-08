@@ -13,6 +13,9 @@
 		   	display: flex;
 		   	justify-content: space-between;
 		   	padding: 0 17px;
+		   	.mobile-only {
+		   		display: none;
+		   	}
 		   	.tools-left,.tools-right {
 		   		ul {
 		   			display: flex;
@@ -145,4 +148,116 @@
 			}
 		}
 	}
+}
+@media (max-width: 768px) {
+	#header {
+	    position: relative;
+	    z-index: 99990;
+		.main-header {
+		    position: relative;
+		    background-color: #F5E5D5;
+		    border-bottom: 1px solid #d1c0af;
+		    .container {
+			    height: 37px;
+			    line-height: 39px;
+			   	max-width: 714px;
+			   	align-items: center;
+			   	padding: 0;
+			   	.mobile-only {
+			   		display: block;
+				    width: 100%;
+				    text-align: center;
+				    font-size: 28px;
+				    color: #356e89;
+			   	}
+			   	.tools-left,.tools-right {
+			   		ul {
+			   			display: flex;
+			   			.link {
+						    font-size: 0px;
+						    padding-right: 20px;
+						    a {
+						    	width: 18px;
+								height: 18px;
+								&:hover {
+									color: #356e89;
+								}
+								img {
+									width: 18px;
+									height: 18px;
+									margin-right: 10px;
+								} 
+							}
+			   			}
+					}
+				}
+			}
+		}
+		.section-header-meta {
+		    background-color: #F5E5D5;
+		    border-bottom: 1px solid #d1c0af;
+		    overflow: hidden;
+			.container {
+				max-width: 714px;
+			    background: #F5E5D6;
+			    .section-header-title {
+			    	display: flex;
+			    	justify-content: center;
+			    	flex-wrap: wrap;
+			    	.header-title {
+						display: block;
+						width: 100%;
+						text-align: center;
+						font-size: 48px;
+						color:#356e89;
+						&.mobile-hidden {
+				   			display: none;
+				   		}
+			    	}
+			    	ul {
+			    		margin-top: 10px;
+			    		display: flex;
+			    		margin-bottom: 13px;
+			    		li {
+			    			margin-right: 14px;
+			    			display: flex;
+			    			align-items: center; 
+			    			border-right: 1px solid #d1c0af;
+			    			padding-right: 6px;
+			    			&:last-child {
+			    				margin-right: 0;
+			    				border: none;
+			    			}
+			    			&:first-child {
+			    				a {
+			    					color: #1a171b;
+			    				}
+			    			}
+			    			img {
+			    				width: 12px;
+			    				height: 12px;
+			    				margin-right: 10px;
+			    			}
+			    			a {
+								font-size:12px;
+								color:#356e89;
+								text-align:left;
+			    			}
+			    		}
+			    	}
+			    }
+			}
+		}
+		.main-header-nav {
+			ul {
+				li {
+					a {
+						font-size:14px;
+						color:#1a171b;
+						font-family: 'MontserratSemi';
+					}
+				}
+			}
+		}
+	}	
 }
