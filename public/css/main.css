@@ -551,7 +551,8 @@ a {
             align-items: center;
         -ms-flex-pack: justify;
             justify-content: space-between;
-        border-top: 2px solid #ad9a88; }
+        border-top: 2px solid #ad9a88;
+        padding: 18px 0; }
         #main .left-part .candidate-list li:first-child {
           border-top: 0; }
           #main .left-part .candidate-list li:first-child .image-holder img {
@@ -602,6 +603,43 @@ a {
             text-align: left;
             margin-bottom: 5px;
             text-transform: uppercase; }
+          #main .left-part .candidate-list li div .percent-line {
+            width: 100%;
+            display: -ms-flexbox;
+            display: flex;
+            height: 12px;
+            margin: 14px 0 9px; }
+            #main .left-part .candidate-list li div .percent-line .blue {
+              background: #356e89;
+              -ms-flex-negative: 0;
+                  flex-shrink: 0; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-229 {
+                width: 229px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-204 {
+                width: 204px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-202 {
+                width: 202px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-165 {
+                width: 165px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-138 {
+                width: 138px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-131 {
+                width: 131px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-107 {
+                width: 107px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-105 {
+                width: 105px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-75 {
+                width: 75px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-53 {
+                width: 53px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-20 {
+                width: 20px; }
+              #main .left-part .candidate-list li div .percent-line .blue.blue-19 {
+                width: 19px; }
+            #main .left-part .candidate-list li div .percent-line .grey {
+              width: 100%;
+              background: rgba(173, 154, 136, 0.2); }
           #main .left-part .candidate-list li div span {
             font-size: 11px;
             color: #1a171b;
@@ -690,6 +728,12 @@ a {
           line-height: 16px;
           text-align: left;
           text-transform: uppercase; }
+    #main .left-part .candidate-list-percent li {
+      position: relative; }
+      #main .left-part .candidate-list-percent li .digits {
+        position: absolute;
+        top: 0;
+        right: 10px; }
   #main aside {
     max-width: 300px;
     width: 100%; }
