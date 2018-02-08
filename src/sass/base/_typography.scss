@@ -7,30 +7,26 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
 	font-size: $h1-font-size;
-	margin: 0 0 $h1-font-size*$headings-line-height;
 }
 h2{
 	font-size: $h2-font-size;
-	margin: 0 0 $h2-font-size*$headings-line-height;
 }
 h3{
 	font-size: $h3-font-size;
-	margin: 0 0 $h3-font-size*$headings-line-height;
 }
 h4{
 	font-size: $h4-font-size;
-	margin: 0 0 $h4-font-size*$headings-line-height;
 }
 h5{
 	font-size: $h5-font-size;
-	margin: 0 0 $h5-font-size*$headings-line-height;
 }
 h6{
 	font-size: $h6-font-size;
-	margin: 0 0 $h6-font-size*$headings-line-height;
 }
 
-p{margin: 0 0 $base-font-size*$base-line-height;}
+p{
+	font-size: $p-font-size;
+}
 
 a {
 	color: $base-link-color;

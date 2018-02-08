@@ -3,13 +3,15 @@
 $black: #000;
 $white: #fff;
 $blue: #00f;
+$base-color: #1a171b;
+
 
 // Body
-$base-font-size: 14px !default;
+$base-font-size: 13px !default;
 $base-line-height: 1.4 !default;
-$base-text-color: $black !default;
-$base-font-family: Arial, Helvetica, sans-serif !default;
-$base-background-color: $white !default;
+$base-text-color: $base-color !default;
+$base-font-family: 'Montserrat', sans-serif !default;
+$base-background-color: #F5E5D5 !default;
 $base-min-width: 320px;
 
 // Headings
@@ -17,8 +19,10 @@ $h1-font-size: 30px !default;
 $h2-font-size: 27px !default;
 $h3-font-size: 24px !default;
 $h4-font-size: 21px !default;
-$h5-font-size: 17px !default;
+$h5-font-size: 18px !default;
 $h6-font-size: 15px !default;
+
+$p-font-size: 13px !default;
 
 $headings-line-height: 1.2 !default;
 
