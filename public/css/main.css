@@ -824,6 +824,267 @@ a {
         #main .left-part .candidate-list-tempo li .detail-title div span.borders {
           border-left: 1px solid #ad9a88;
           border-right: 1px solid #ad9a88; }
+  #main .exitpoll-left .title-exitpoll h1 i {
+    font-size: 18px;
+    color: #244357;
+    letter-spacing: 0;
+    text-align: left;
+    font-style: normal;
+    margin-left: 15px; }
+  #main .exitpoll-left .title-exitpoll span {
+    font-family: Montserrat-Regular;
+    font-size: 11px;
+    color: #1a171b;
+    text-align: left;
+    margin-bottom: 30px;
+    display: block; }
+  #main .exitpoll-left .title-exitpoll p {
+    font-family: Montserrat-Bold;
+    font-size: 13px;
+    color: #244357;
+    margin-bottom: 10px; }
+  #main .exitpoll-left .title-exitpoll-table .title-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    height: 27px;
+    min-height: 27px;
+    border-top: 1px solid #244357;
+    border-bottom: 1px solid #244357; }
+    #main .exitpoll-left .title-exitpoll-table .title-row span {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      min-height: 15px;
+      padding: 0 105px;
+      font-family: Montserrat-SemiBold;
+      font-size: 11px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 15.6px;
+      border-left: 1px solid #112531; }
+      #main .exitpoll-left .title-exitpoll-table .title-row span:first-child {
+        border: 0; }
+  #main .exitpoll-left .title-exitpoll-table > div {
+    min-height: 99px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: end;
+        justify-content: flex-end; }
+    #main .exitpoll-left .title-exitpoll-table > div div {
+      min-width: 257px;
+      border-left: 1px solid #112531; }
+      #main .exitpoll-left .title-exitpoll-table > div div:first-child {
+        border: 0; }
+      #main .exitpoll-left .title-exitpoll-table > div div span {
+        text-align: center;
+        display: block;
+        font-family: Montserrat-Bold;
+        font-size: 11px;
+        color: #244357;
+        letter-spacing: 0;
+        line-height: 16px; }
+        #main .exitpoll-left .title-exitpoll-table > div div span i {
+          font-style: normal;
+          font-family: Montserrat-Regular;
+          font-size: 11px;
+          color: #1a171b;
+          letter-spacing: 0;
+          line-height: 16px;
+          margin-left: 5px; }
+  #main .exitpoll-left .exitpoll-list-tempo li .detail-title img {
+    margin: 0 15px 0 0; }
+  #main .exitpoll-left .exitpoll-list-tempo li .detail-title h5 {
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: #416077;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: left; }
+  #main .exitpoll-left .exitpoll-list-tempo li .detail-title i {
+    display: none; }
+  #main .exitpoll-left .exitpoll-list-tempo li .detail-title div {
+    width: auto;
+    display: -ms-flexbox;
+    display: flex; }
+    #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span {
+      height: 24px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      padding: 0 23px;
+      letter-spacing: 0;
+      line-height: 17px;
+      text-align: center;
+      position: relative;
+      border-left: 1px solid #ad9a88;
+      font-family: Montserrat-SemiBold;
+      font-size: 15px;
+      color: #244357;
+      letter-spacing: 0;
+      text-align: center; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -35px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        color: #ad9a88;
+        letter-spacing: 0;
+        line-height: 15.6px;
+        text-align: center; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(1) {
+        font-family: Montserrat-SemiBold;
+        font-size: 12px;
+        color: #244357;
+        letter-spacing: 0;
+        text-align: center;
+        border: 0; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(3) {
+        font-family: Montserrat-SemiBold;
+        font-size: 12px;
+        color: #244357;
+        letter-spacing: 0;
+        text-align: center; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(1):before {
+        content: 'Exit poll'; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(2):before {
+        content: 'Stima seggi'; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(3):before {
+        content: 'Exit poll'; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(4):before {
+        content: 'Stima seggi'; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span.borders {
+        border-left: 1px solid #ad9a88;
+        border-right: 1px solid #ad9a88; }
+  #main .exitpoll-left .exitpoll-list-tempo li .detail-title-last {
+    -ms-flex-align: center !important;
+        align-items: center !important; }
+    #main .exitpoll-left .exitpoll-list-tempo li .detail-title-last h5 {
+      width: auto;
+      margin-bottom: 0; }
+    #main .exitpoll-left .exitpoll-list-tempo li .detail-title-last div {
+      width: 100%; }
+  #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title {
+    border-top: 1px solid #244357;
+    padding: 8px 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+        align-items: flex-start;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+    width: 100%; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title p {
+      font-family: Montserrat-Bold;
+      font-size: 12px;
+      color: #244357;
+      letter-spacing: 0;
+      line-height: 15.6px; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div {
+      margin-top: 18px; }
+      #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span {
+        height: 24px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+        padding: 0 23px;
+        letter-spacing: 0;
+        line-height: 17px;
+        text-align: center;
+        position: relative;
+        border-left: 1px solid #ad9a88;
+        font-family: Montserrat-SemiBold;
+        font-size: 15px;
+        color: #244357;
+        letter-spacing: 0;
+        text-align: center; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span:nth-child(1) {
+          font-family: Montserrat-SemiBold;
+          font-size: 12px;
+          color: #244357;
+          letter-spacing: 0;
+          text-align: center;
+          border: 0; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span:nth-child(3) {
+          font-family: Montserrat-SemiBold;
+          font-size: 12px;
+          color: #244357;
+          letter-spacing: 0;
+          text-align: center; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span:before {
+          top: -23px; }
+  #main .exitpoll-left .exitpoll-list-tempo li ul li {
+    border-width: 1px; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul li:nth-child(2) {
+      border: 0; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul li h5 {
+      font-family: Montserrat-Bold;
+      font-size: 16px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-align: left;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul li img {
+      width: 45px;
+      height: 45px;
+      margin: 0 15px 0 0; }
+    #main .exitpoll-left .exitpoll-list-tempo li ul li div {
+      width: 100%;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+      #main .exitpoll-left .exitpoll-list-tempo li ul li div span, #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child {
+        height: 24px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+        padding: 0 23px;
+        letter-spacing: 0;
+        line-height: 17px;
+        text-align: center;
+        position: relative;
+        border-left: 1px solid #ad9a88;
+        font-family: Montserrat-SemiBold;
+        font-size: 15px;
+        color: #244357;
+        letter-spacing: 0;
+        text-align: center; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul li div span:nth-child(1), #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child:nth-child(1) {
+          font-family: Montserrat-SemiBold;
+          font-size: 12px;
+          color: #244357;
+          letter-spacing: 0;
+          text-align: center;
+          border: 0; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul li div span:nth-child(3), #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child:nth-child(3) {
+          font-family: Montserrat-SemiBold;
+          font-size: 12px;
+          color: #244357;
+          letter-spacing: 0;
+          text-align: center; }
   #main aside {
     max-width: 300px;
     width: 100%; }
@@ -1176,6 +1437,94 @@ a {
           right: 0;
           top: 10px;
           margin: 0; }
+  #main .exitpoll-aside ul > p {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    font-family: Montserrat-Bold;
+    font-size: 13px;
+    color: #244357;
+    letter-spacing: 0;
+    line-height: 15.6px;
+    margin: 11px 0 0;
+    padding-bottom: 11px;
+    border-bottom: 2px solid #dfcebd; }
+    #main .exitpoll-aside ul > p img {
+      width: 43px;
+      height: 40px;
+      margin-right: 5px; }
+  #main .exitpoll-aside ul .title-li {
+    padding: 5px 0; }
+    #main .exitpoll-aside ul .title-li > p {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      font-family: Montserrat-Bold;
+      font-size: 13px;
+      color: #244357;
+      letter-spacing: 0;
+      line-height: 15.6px;
+      margin: 0; }
+      #main .exitpoll-aside ul .title-li > p img {
+        width: 43px;
+        height: 40px;
+        margin-right: 5px; }
+    #main .exitpoll-aside ul .title-li div span {
+      padding: 0px 25px; }
+  #main .exitpoll-aside ul li p {
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    color: #356e89;
+    letter-spacing: 0;
+    line-height: 12px;
+    text-align: left;
+    text-transform: none; }
+    #main .exitpoll-aside ul li p span {
+      text-transform: none;
+      display: block;
+      font-family: Montserrat-Regular;
+      font-size: 11px;
+      color: #1a171b;
+      letter-spacing: 0;
+      line-height: 14px;
+      text-align: left; }
+  #main .exitpoll-aside ul li div span {
+    padding: 0 19px;
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 12px;
+    text-align: center; }
+  #main .exitpoll-aside .retrospettivi-list {
+    border-bottom: 2px solid #244357; }
+    #main .exitpoll-aside .retrospettivi-list .title-li p {
+      font-family: Montserrat-Bold;
+      font-size: 13px;
+      color: #244357;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-transform: uppercase; }
+    #main .exitpoll-aside .retrospettivi-list .title-li div span {
+      font-family: Montserrat-Regular;
+      font-size: 11px;
+      color: #ad9a88;
+      letter-spacing: 0;
+      line-height: 12px;
+      text-align: center;
+      padding: 0 17px; }
+    #main .exitpoll-aside .retrospettivi-list li p {
+      font-family: Montserrat-Bold;
+      font-size: 11px;
+      color: #356e89;
+      letter-spacing: 0;
+      line-height: 12px;
+      text-align: left; }
+    #main .exitpoll-aside .retrospettivi-list li span {
+      padding: 0 26px; }
 
 @media (max-width: 1199px) {
   .a-masthead {
@@ -1273,7 +1622,60 @@ a {
         #main .left-part .candidate-list-detail > li ul li {
           min-height: 49px;
           font-size: 12px;
-          text-transform: uppercase; } }
+          text-transform: uppercase; }
+    #main .exitpoll-left .title-exitpoll h1 {
+      font-size: 26px;
+      color: #1a171b;
+      text-align: left; }
+      #main .exitpoll-left .title-exitpoll h1 i {
+        font-size: 16px; }
+    #main .exitpoll-left .title-exitpoll span {
+      font-family: Montserrat-Regular;
+      font-size: 11px;
+      color: #1a171b;
+      text-align: left;
+      margin-bottom: 30px;
+      display: block; }
+    #main .exitpoll-left .title-exitpoll p {
+      font-size: 12px; }
+    #main .exitpoll-left .title-exitpoll-table .title-row span {
+      padding: 0 85px; }
+    #main .exitpoll-left .title-exitpoll-table > div {
+      min-height: 95px; }
+      #main .exitpoll-left .title-exitpoll-table > div div {
+        min-width: 217px; }
+    #main .exitpoll-left .exitpoll-list-tempo li {
+      padding: 10px 0; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title img {
+        margin: 0 15px 0 0; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title h5 {
+        font-size: 14px; }
+      #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span {
+        padding: 0 10px;
+        font-size: 13px;
+        width: 108px; }
+        #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(1) {
+          font-size: 11px; }
+        #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(3) {
+          font-size: 11px; }
+      #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span {
+        width: 108px;
+        padding: 0 10px;
+        font-size: 13px; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span:nth-child(1) {
+          font-size: 11px; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title div span:nth-child(3) {
+          font-size: 11px; }
+      #main .exitpoll-left .exitpoll-list-tempo li ul li h5 {
+        font-size: 14px; }
+      #main .exitpoll-left .exitpoll-list-tempo li ul li div span, #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child {
+        padding: 0 10px;
+        font-size: 13px;
+        width: 108px; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul li div span:nth-child(1), #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child:nth-child(1) {
+          font-size: 11px; }
+        #main .exitpoll-left .exitpoll-list-tempo li ul li div span:nth-child(3), #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child:nth-child(3) {
+          font-size: 11px; } }
 
 @media (max-width: 768px) {
   .mobile-only {
