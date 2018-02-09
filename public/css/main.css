@@ -886,6 +886,8 @@ a {
         border: 0; }
         #main .exitpoll-left .title-exitpoll-table > div div:first-child span {
           padding-left: 0; }
+      #main .exitpoll-left .title-exitpoll-table > div div:last-child .view-more {
+        padding-left: 24px; }
       #main .exitpoll-left .title-exitpoll-table > div div span {
         display: block;
         font-family: Montserrat-Bold;
@@ -903,6 +905,26 @@ a {
           letter-spacing: 0;
           line-height: 16px;
           margin-left: 5px; }
+      #main .exitpoll-left .title-exitpoll-table > div div .view-more {
+        display: block;
+        font-family: Montserrat-Bold;
+        font-size: 13px;
+        color: #356e89;
+        letter-spacing: 0;
+        line-height: 15px;
+        margin-top: 25px; }
+        #main .exitpoll-left .title-exitpoll-table > div div .view-more:after {
+          content: '';
+          display: inline-block;
+          width: 6px;
+          height: 10px;
+          background: url(../images/arrow-right.png) no-repeat;
+          background-size: contain;
+          margin-left: 10px; }
+  #main .exitpoll-left .title-temporeale-table {
+    padding-bottom: 29px; }
+    #main .exitpoll-left .title-temporeale-table .title-row {
+      margin-bottom: 20px; }
   #main .exitpoll-left .exitpoll-list-tempo li .detail-title img {
     margin: 0 15px 0 0; }
   #main .exitpoll-left .exitpoll-list-tempo li .detail-title h5 {
@@ -1096,6 +1118,44 @@ a {
     content: 'VOTI'; }
   #main .proiezioni-left .exitpoll-list-tempo li .detail-title div span:nth-child(4):before {
     content: 'SEGGI'; }
+  #main .temporeale-left .candidate-list li {
+    padding: 13px 0; }
+  #main .temporeale-left .exitpoll-list-tempo li .detail-title div span {
+    font-family: Montserrat-SemiBold;
+    font-size: 12px;
+    color: #416077;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+    width: 86px; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(1):before {
+      content: '%'; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(2):before {
+      content: 'VOTI'; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(3):before {
+      content: 'SEGGI'; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(4):before {
+      content: '%'; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(5):before {
+      content: 'VOTI'; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span:nth-child(6):before {
+      content: 'SEGGI'; }
+  #main .temporeale-left .exitpoll-list-tempo li ul .title-li .detail-title div span {
+    width: 86px;
+    font-family: Montserrat-SemiBold;
+    font-size: 12px;
+    color: #416077;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center; }
+  #main .temporeale-left .exitpoll-list-tempo li ul li div span {
+    width: 86px;
+    font-family: Montserrat-SemiBold;
+    font-size: 12px;
+    color: #416077;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center; }
   #main aside {
     max-width: 300px;
     width: 100%; }
@@ -1686,7 +1746,25 @@ a {
         #main .exitpoll-left .exitpoll-list-tempo li ul li div span:nth-child(1), #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child:nth-child(1) {
           font-size: 11px; }
         #main .exitpoll-left .exitpoll-list-tempo li ul li div span:nth-child(3), #main .exitpoll-left .exitpoll-list-tempo li ul li div span:last-child:nth-child(3) {
-          font-size: 11px; } }
+          font-size: 11px; }
+    #main .temporeale-left .candidate-list li {
+      padding: 8px 0; }
+    #main .temporeale-left .exitpoll-list-tempo li .detail-title div span {
+      width: 73px;
+      font-size: 11px;
+      height: 15px; }
+    #main .temporeale-left .exitpoll-list-tempo li ul .title-li .detail-title div span {
+      width: 73px;
+      font-size: 11px;
+      height: 15px; }
+    #main .temporeale-left .exitpoll-list-tempo li ul li div span {
+      width: 73px;
+      font-size: 11px;
+      height: 15px; }
+      #main .temporeale-left .exitpoll-list-tempo li ul li div span:last-child {
+        width: 73px;
+        font-size: 11px;
+        height: 15px; } }
 
 @media (max-width: 768px) {
   .mobile-only {

@@ -567,6 +567,11 @@
 							padding-left: 0;
 						}
 					}
+					&:last-child {
+						.view-more {
+							padding-left: 24px;
+						}	
+					}
 					span {
 						display: block;
 						font-family:Montserrat-Bold;
@@ -586,7 +591,31 @@
 							margin-left: 5px;
 						}
 					}
+					.view-more {
+						display: block;
+						font-family:Montserrat-Bold;
+						font-size:13px;
+						color:#356e89;
+						letter-spacing:0;
+						line-height:15px;
+						margin-top: 25px;
+						&:after {
+						    content: '';
+						    display: inline-block;
+						    width: 6px;
+						    height: 10px;
+						    background: url(../images/arrow-right.png) no-repeat;
+						    background-size: contain;
+						    margin-left: 10px;
+						}
+					}
 				}
+			}
+		}
+		.title-temporeale-table {
+			padding-bottom: 29px;
+			.title-row {
+				margin-bottom: 20px;
 			}
 		}
 		.exitpoll-list-tempo {
@@ -817,6 +846,79 @@
 							}
 							&:nth-child(4):before {
 								content: 'SEGGI';
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.temporeale-left {
+		.candidate-list{
+			li{
+				padding: 13px 0;
+			}
+		}
+		.exitpoll-list-tempo {
+			li {
+				.detail-title {
+					div {
+						span {
+							font-family:Montserrat-SemiBold;
+							font-size:12px;
+							color:#416077;
+							letter-spacing:0;
+							line-height:16px;
+							text-align:center;
+							width: 86px;
+							&:nth-child(1):before {
+								content: '%';
+							}
+							&:nth-child(2):before {
+								content: 'VOTI';
+
+							}
+							&:nth-child(3):before {
+								content: 'SEGGI';
+							}
+							&:nth-child(4):before {
+								content: '%';
+							}
+							&:nth-child(5):before {
+								content: 'VOTI';
+							}
+							&:nth-child(6):before {
+								content: 'SEGGI';
+							}
+						}
+					}
+				}
+				ul {
+					.title-li {
+						.detail-title {
+							div {
+								span {
+									width: 86px;
+									font-family:Montserrat-SemiBold;
+									font-size:12px;
+									color:#416077;
+									letter-spacing:0;
+									line-height:16px;
+									text-align:center;
+								}
+							}
+						}
+					}
+					li {
+						div {
+							span {
+								width: 86px;
+								font-family:Montserrat-SemiBold;
+								font-size:12px;
+								color:#416077;
+								letter-spacing:0;
+								line-height:16px;
+								text-align:center;
 							}
 						}
 					}
@@ -1596,6 +1698,53 @@
 									}
 									&:nth-child(3) {
 										font-size:11px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.temporeale-left {
+			.candidate-list{
+				li{
+					padding: 8px 0;
+				}
+			}
+			.exitpoll-list-tempo {
+				li {
+					.detail-title {
+						div {
+							span {
+								width: 73px;
+								font-size:11px;
+								height: 15px;
+							}
+						}
+					}
+					ul {
+						.title-li {
+							.detail-title {
+								div {
+									span {
+										width: 73px;
+										font-size:11px;
+										height: 15px;
+									}
+								}
+							}
+						}
+						li {
+							div {
+								span {
+									width: 73px;
+									font-size:11px;
+									height: 15px;
+									&:last-child {
+										width: 73px;
+										font-size:11px;
+										height: 15px;
 									}
 								}
 							}
