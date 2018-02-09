@@ -884,14 +884,17 @@ a {
       border-left: 1px solid #112531; }
       #main .exitpoll-left .title-exitpoll-table > div div:first-child {
         border: 0; }
+        #main .exitpoll-left .title-exitpoll-table > div div:first-child span {
+          padding-left: 0; }
       #main .exitpoll-left .title-exitpoll-table > div div span {
-        text-align: center;
         display: block;
         font-family: Montserrat-Bold;
         font-size: 11px;
         color: #244357;
         letter-spacing: 0;
-        line-height: 16px; }
+        line-height: 16px;
+        text-align: left;
+        padding-left: 24px; }
         #main .exitpoll-left .title-exitpoll-table > div div span i {
           font-style: normal;
           font-family: Montserrat-Regular;
@@ -1085,6 +1088,14 @@ a {
           color: #244357;
           letter-spacing: 0;
           text-align: center; }
+  #main .proiezioni-left .exitpoll-list-tempo li .detail-title div span:nth-child(1):before {
+    content: 'VOTI'; }
+  #main .proiezioni-left .exitpoll-list-tempo li .detail-title div span:nth-child(2):before {
+    content: 'SEGGI'; }
+  #main .proiezioni-left .exitpoll-list-tempo li .detail-title div span:nth-child(3):before {
+    content: 'VOTI'; }
+  #main .proiezioni-left .exitpoll-list-tempo li .detail-title div span:nth-child(4):before {
+    content: 'SEGGI'; }
   #main aside {
     max-width: 300px;
     width: 100%; }
