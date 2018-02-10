@@ -1714,9 +1714,18 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
         margin-bottom: 225px; }
-        #main .camera-regione .regione-form form .select-holder .selecter {
-          margin-left: 30px; }
-          #main .camera-regione .regione-form form .select-holder .selecter:first-child {
+        #main .camera-regione .regione-form form .select-holder span {
+          display: block;
+          width: 100%;
+          margin-left: 30px;
+          font-family: Montserrat-Regular;
+          font-size: 13px;
+          color: #000000;
+          letter-spacing: 0;
+          line-height: 32.5px;
+          text-align: left;
+          border-bottom: 1px solid #ad9a88; }
+          #main .camera-regione .regione-form form .select-holder span:first-child {
             margin-left: 0; }
   #main aside {
     max-width: 300px;
@@ -2524,12 +2533,9 @@ a {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
       margin-bottom: 95px !important; }
-      #main .camera-regione .select-holder .selecter {
-        max-width: 100%;
+      #main .camera-regione .select-holder span {
         width: 100%;
         margin: 0 0 10px !important; }
-        #main .camera-regione .select-holder .selecter .selecter-selected {
-          max-width: 100% !important; }
     #main .camera-regione .to-top {
       margin-bottom: 40px; }
     #main aside {
