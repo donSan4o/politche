@@ -1226,10 +1226,24 @@
 				color:#000000;
 				font-style: normal;
 			}
+			b {
+				font-family:Montserrat-Bold;
+				font-size:11px;
+				color:#416077;
+				letter-spacing:0;
+				line-height:15.6px;
+			}
 		}
 		.title-exitpoll-table {
 			border-top:1px solid #244357;
 			padding: 18px 0 13px;
+			p {
+				font-family:Montserrat-Bold;
+				font-size:13px;
+				color:#244357;
+				letter-spacing:0;
+				line-height:15.6px;
+			}
 			span {
 				display: block;
 				font-family:Montserrat-Bold;
@@ -1335,6 +1349,29 @@
 			}
 		}
 		.camera-list-tempo {
+			position: relative;
+			border: 0;
+			.result-link {
+				display: block;
+				position: absolute;
+				right: 0;
+				top: -40px;
+				font-family:Montserrat-Bold;
+				font-size:13px;
+				color:#356e89;
+				letter-spacing:0;
+				line-height:15px;
+				&:after {
+				    content: '';
+				    display: inline-block;
+				    width: 6px;
+				    height: 10px;
+				    background: url(../images/arrow-right.png) no-repeat;
+				    background-size: contain;
+				    margin-left: 10px;
+				    transform: rotate(90deg);
+				}
+			}
 			li { 
 				.detail-title {
 					div{
@@ -1408,6 +1445,145 @@
 								}
 					    	}
 					    }
+					}
+				}
+			}
+		}
+	}
+	.camera-regione {
+		.after-columns-title {
+			margin: 24px 0;
+		}
+		.camera-list-tempo {
+			margin-bottom: 0;
+			&>li {
+				margin-bottom: 0;
+			}
+		}
+		.to-top {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border:1px solid #416077;
+			border-radius:23px;
+			width:85px;
+			height:28px;
+			font-family:Montserrat-Bold;
+			font-size:11px;
+			color:#416077;
+			margin: 0 0 0 auto;
+			&:before {
+				content: '';
+				display: inline-block;
+				width: 6px;
+				height: 10px;
+				background: url(../images/arrow-right.png) no-repeat;
+				background-size: contain;
+				margin-right: 10px;
+				transform: rotate(-90deg);
+			}
+		}
+		.title-exitpoll-table {
+			border-top:1px solid #244357;
+			padding: 18px 0 13px;
+			display: flex;
+			align-items: flex-start;
+			justify-content: space-between;
+			p {
+				font-family:Montserrat-Bold;
+				font-size:13px;
+				color:#244357;
+				letter-spacing:0;
+				line-height:15.6px;
+				margin: 0; 
+			}
+			div {
+				display: block;
+				min-height: 52px;
+				span {
+					display: block;
+					font-family:Montserrat-Bold;
+					font-size:11px;
+					color:#244357;
+					letter-spacing:0;
+					line-height:16px;
+					text-align:left;
+					i {
+						font-family:Montserrat-Regular;
+						font-size:11px;
+						color:#1a171b;
+						letter-spacing:0;
+						line-height:16px;
+						text-align:right;
+					}
+				}
+			}
+		}
+		.regione-form {
+			display: flex;
+			&>div {
+				width: 50%;
+				padding-right: 15px;
+				p {
+					font-family:Montserrat-Bold;
+					font-size:13px;
+					color:#244357;
+					letter-spacing:0;
+					line-height:15.6px;
+				}
+			}
+			form {
+				padding-left: 15px;
+				width: 50%;
+				position: relative;
+				.input-holder {
+					position: relative;
+					width: 100%;
+					input[type="text"] {
+						display: flex;
+						align-items: center;
+						padding-left: 16px;
+						background:#ffffff;
+						border-radius:28px;
+						width:100%;
+						height:36px;
+						font-family:Montserrat-Regular;
+						font-size:11px;
+						color:#6a6a6a;
+						text-align:left;
+						border: none;
+						outline: none;
+						margin-bottom: 20px;
+					}
+					input[type="submit"] {
+						width: 17px;
+						height: 16px;
+						background: url(../images/search.png) no-repeat;
+						background-size: contain;
+						position: absolute;
+						top: 50%;
+						transform: translateY(-50%);
+						right: 15px; 
+						border: none;
+						outline: none;
+						font-size: 0;
+						cursor: pointer;
+					}
+				}
+				i {
+					color:#ad9a88;
+					font-family:Montserrat-Light;
+					font-size:12px;
+				}
+				.select-holder {
+					display: flex;
+					justify-content: space-between;
+					margin-bottom: 225px;
+					.selecter {
+						margin-left: 30px;
+						&:first-child {
+							margin-left: 0;
+						}
 					}
 				}
 			}
@@ -2567,6 +2743,35 @@
 				.definitivi-list {
 					border-right: 1px solid #ad9a88;
 				}
+			}
+		}
+		.camera-regione {
+			.after-columns-title {
+				margin: 24px 0;
+			}
+			.camera-list-tempo {
+				margin-bottom: 0;
+				&>li {
+					margin-bottom: 0;
+				}
+				.result-link {
+    				font-size: 12px; 
+				}
+			}
+			.select-holder {
+				flex-wrap: wrap;
+				margin-bottom: 95px !important;
+				.selecter {
+					max-width: 100%;
+					width: 100%;
+					margin: 0 0 10px !important;
+					.selecter-selected {
+						max-width: 100% !important;
+					}
+				}
+			}
+			.to-top {
+				margin-bottom: 40px;
 			}
 		}
 		aside {
