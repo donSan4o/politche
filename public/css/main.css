@@ -1158,6 +1158,23 @@ a {
     letter-spacing: 0;
     line-height: 16px;
     text-align: center; }
+  #main .definitivi-left .results {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -ms-flex-align: center;
+        align-items: center;
+    border: 1px solid #416077;
+    border-radius: 23px;
+    width: 125px;
+    height: 28px;
+    font-family: Montserrat-Bold;
+    font-size: 11px;
+    color: #416077; }
+    #main .definitivi-left .results:hover {
+      background: #416077;
+      color: #fff; }
   #main .definitivi-left .title-exitpoll-table .title-row {
     -ms-flex-pack: center;
         justify-content: center;
@@ -1368,6 +1385,178 @@ a {
               text-align: left;
               left: -15px;
               content: 'SEGGI'; }
+  #main .camera-italia .title-exitpoll {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+        justify-content: space-between; }
+    #main .camera-italia .title-exitpoll div {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+    #main .camera-italia .title-exitpoll a {
+      margin-top: 20px; }
+  #main .camera-italia .after-columns-title {
+    margin: 60px 0 40px; }
+    #main .camera-italia .after-columns-title h2 {
+      font-family: Montserrat-Light;
+      font-size: 22px;
+      color: #000000;
+      letter-spacing: 0;
+      line-height: 22px;
+      font-weight: 300; }
+    #main .camera-italia .after-columns-title i {
+      font-family: Montserrat-Light;
+      font-size: 12px;
+      color: #000000;
+      font-style: normal; }
+  #main .camera-italia .title-exitpoll-table {
+    border-top: 1px solid #244357;
+    padding: 18px 0 13px; }
+    #main .camera-italia .title-exitpoll-table span {
+      display: block;
+      font-family: Montserrat-Bold;
+      font-size: 11px;
+      color: #244357;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-align: left; }
+      #main .camera-italia .title-exitpoll-table span i {
+        font-family: Montserrat-Regular;
+        font-size: 11px;
+        color: #1a171b;
+        letter-spacing: 0;
+        line-height: 16px;
+        text-align: right; }
+  #main .camera-italia .form-wrapper p {
+    font-family: Montserrat-Bold;
+    font-size: 13px;
+    color: #244357;
+    letter-spacing: 0;
+    line-height: 15.6px;
+    text-transform: uppercase; }
+  #main .camera-italia .form-wrapper > img {
+    margin: 0 !important; }
+  #main .camera-italia .form-wrapper i {
+    display: block;
+    font-style: normal;
+    font-family: Montserrat-Light;
+    font-size: 12px;
+    color: #ad9a88;
+    margin-bottom: 75px; }
+  #main .camera-italia .form-wrapper form {
+    margin-top: 35px;
+    position: relative; }
+    #main .camera-italia .form-wrapper form input[type="text"] {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      padding-left: 16px;
+      background: #ffffff;
+      border-radius: 28px;
+      width: 100%;
+      height: 36px;
+      font-family: Montserrat-Regular;
+      font-size: 11px;
+      color: #6a6a6a;
+      text-align: left;
+      border: none;
+      outline: none;
+      margin-bottom: 20px; }
+    #main .camera-italia .form-wrapper form input[type="submit"] {
+      width: 17px;
+      height: 16px;
+      background: url(../images/search.png) no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 15px;
+      border: none;
+      outline: none;
+      font-size: 0;
+      cursor: pointer; }
+    #main .camera-italia .form-wrapper form .selecter {
+      margin-top: 20px; }
+  #main .camera-italia .form-wrapper .world-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; }
+    #main .camera-italia .form-wrapper .world-list img {
+      margin-right: 17px;
+      max-width: 151px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+    #main .camera-italia .form-wrapper .world-list ul {
+      width: 100%; }
+      #main .camera-italia .form-wrapper .world-list ul li {
+        display: -ms-flexbox;
+        display: flex;
+        min-height: 36px;
+        -ms-flex-align: center;
+            align-items: center;
+        border-bottom: 1px solid #ad9a88; }
+        #main .camera-italia .form-wrapper .world-list ul li:last-child {
+          border: 0; }
+        #main .camera-italia .form-wrapper .world-list ul li a {
+          font-family: Montserrat-Bold;
+          font-size: 11px;
+          color: #416077;
+          letter-spacing: 0;
+          line-height: 16px; }
+  #main .camera-italia .camera-list-tempo li .detail-title div span {
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    color: #416077;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: left; }
+    #main .camera-italia .camera-list-tempo li .detail-title div span:nth-child(1):before {
+      content: '%'; }
+    #main .camera-italia .camera-list-tempo li .detail-title div span:nth-child(2):before {
+      content: 'VOTI'; }
+    #main .camera-italia .camera-list-tempo li .detail-title div span:nth-child(3):before {
+      content: 'SECCI'; }
+    #main .camera-italia .camera-list-tempo li .detail-title div span:last-child {
+      font-family: Montserrat-Regular !important;
+      font-size: 30px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-align: center; }
+  #main .camera-italia .camera-list-tempo li ul .title-li .detail-title div span {
+    font-family: Montserrat-Bold;
+    font-size: 12px;
+    color: #416077;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: left; }
+    #main .camera-italia .camera-list-tempo li ul .title-li .detail-title div span:last-child {
+      font-family: Montserrat-Regular !important;
+      font-size: 30px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-align: center; }
+  #main .camera-italia .camera-list-tempo li ul li {
+    padding: 12px 0px; }
+    #main .camera-italia .camera-list-tempo li ul li div span {
+      font-family: Montserrat-Bold;
+      font-size: 12px;
+      color: #416077;
+      letter-spacing: 0;
+      line-height: 16px;
+      text-align: left; }
+      #main .camera-italia .camera-list-tempo li ul li div span:nth-child(3) {
+        font-family: Montserrat-Regular !important;
+        font-size: 30px !important;
+        color: #416077 !important;
+        letter-spacing: 0;
+        line-height: 16px;
+        text-align: center; }
   #main aside {
     max-width: 300px;
     width: 100%; }
@@ -2064,7 +2253,46 @@ a {
           #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .red-li div span:nth-child(3):before {
             text-align: left;
             left: -15px;
-            content: 'SEGGI'; } }
+            content: 'SEGGI'; }
+    #main .camera-italia .after-columns-title {
+      margin: 50px 0 24px; }
+      #main .camera-italia .after-columns-title h2 {
+        font-size: 20px; }
+      #main .camera-italia .after-columns-title i {
+        font-size: 11px; }
+    #main .camera-italia .form-wrapper p {
+      font-size: 12px; }
+    #main .camera-italia .form-wrapper i {
+      font-size: 10px;
+      margin-bottom: 35px; }
+    #main .camera-italia .form-wrapper form {
+      margin-top: 15px; }
+      #main .camera-italia .form-wrapper form input[type="text"] {
+        margin-bottom: 20px; }
+    #main .camera-italia .form-wrapper .world-list img {
+      margin-right: 8px;
+      max-width: 104px; }
+    #main .camera-italia .form-wrapper .world-list ul li a {
+      font-size: 10px; }
+    #main .camera-italia .camera-list-tempo li .detail-title div span {
+      font-size: 11px; }
+      #main .camera-italia .camera-list-tempo li .detail-title div span:last-child {
+        font-family: Montserrat-Regular !important;
+        font-size: 20px; }
+    #main .camera-italia .camera-list-tempo li ul .title-li .detail-title div span {
+      font-family: Montserrat-Bold;
+      font-size: 11px; }
+      #main .camera-italia .camera-list-tempo li ul .title-li .detail-title div span:last-child {
+        font-family: Montserrat-Regular !important;
+        font-size: 20px; }
+    #main .camera-italia .camera-list-tempo li ul li {
+      padding: 10px 0px; }
+      #main .camera-italia .camera-list-tempo li ul li div span {
+        font-family: Montserrat-Bold;
+        font-size: 11px; }
+        #main .camera-italia .camera-list-tempo li ul li div span:nth-child(3) {
+          font-family: Montserrat-Regular !important;
+          font-size: 20px !important; } }
 
 @media (max-width: 768px) {
   .mobile-only {
@@ -2118,6 +2346,11 @@ a {
           width: 13px;
           height: 13px;
           margin-right: 8px; }
+    #main .camera-italia .title-exitpoll a {
+      margin-top: 6px;
+      margin-right: 150px; }
+    #main .camera-italia .definitivi-column-holder .definitivi-list {
+      border-right: 1px solid #ad9a88; }
     #main aside {
       max-width: 714px; }
       #main aside .aside-banner {
