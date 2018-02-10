@@ -710,6 +710,7 @@
 					h5 {
 						width: auto;
 						margin-bottom: 0;
+						min-width: 110px;
 					}
 					div {
 						width: 100%;
@@ -1104,7 +1105,7 @@
 										}
 									}
 									.text-hidden {
-										color: #F5E5D5;
+										color: #F5E5D5 !important;
 									}
 								} 
 								p {
@@ -1219,6 +1220,15 @@
 				letter-spacing:0;
 				line-height:22px;
 				font-weight: 300;
+				b {
+					font-size:22px;
+					color:#356e89;
+					letter-spacing:0;
+					line-height:22px;
+					text-align:left;
+					font-weight: 300;
+					font-family: Montserrat-Light;
+				}
 			}
 			i {
 				font-family:Montserrat-Light;
@@ -1521,6 +1531,7 @@
 		}
 		.regione-form {
 			display: flex;
+			flex-wrap: wrap;
 			&>div {
 				width: 50%;
 				padding-right: 15px;
@@ -1530,6 +1541,14 @@
 					color:#244357;
 					letter-spacing:0;
 					line-height:15.6px;
+				}
+			}
+			.selects-block {
+				width: 100%;
+				display: flex;
+				justify-content: flex-end;
+				.selecter{
+					margin-left: 30px;
 				}
 			}
 			form {
@@ -1598,6 +1617,7 @@
 			}
 		}
 	}
+
 	aside {
 		max-width: 300px;
 		width: 100%;
@@ -2130,7 +2150,82 @@
 			}
 		}
 	}
+	.camera-provincia {
+		.camera-list-tempo {
+		 	li {
+		  		.detail-title {
+		  			p {
+		  				max-width: 230px;
+		  				width: 100%;
+		  				margin-right: 40px;
+		  				flex-shrink: 0;
+		  			}
+	  				.image-title-holder {
+	  					max-width: 230px;
+	  					width: 100%;
+	  					flex-shrink: 0;
+	  					align-items: center;
+	  					margin-right: 40px;
+	  					justify-content: flex-start;
+	  				}
+		   			div {
+		    			span {
+						    width: 89px;
+		    			}
+		   			}
+		  		}
+		  		ul{
+		  			li{ 
+		  				div{ 
+		  					span{
+								width: 89px;
+		  					}
+		  				}
+		  			}
+		  		}
+		  		ul{
+		  			li{ 
+		  				.image-title-holder {
+		  					max-width: 230px;
+		  					width: 100%;
+		  					flex-shrink: 0;
+		  					margin-right: 40px;
+		  					align-items: center;
+		  					justify-content: flex-start;
+		  				}
+		  			}
+		  		}
+		  	}
+		  	.text-hidden {
+				color: #F5E5D5 !important;
+			}
+	  	}
+	}
+	.provincia-info {
+  		display: flex;
+		width: 100%;
+		justify-content: center;
+		text-decoration: none;
+		flex-direction: column;
+		&>span {
+			display: block !important;
+			margin-bottom: 5px;
+			width: 100%;
+			font-family:Montserrat-Regular !important;
+			font-size:13px !important;
+			color:#000 !important;
+			letter-spacing:0;
+			width: auto !important;
+			padding: 0 !important;
+			text-align: left !important;
+			text-transform: initial !important;
+			&:before {
+				display: none !important;
+			}
+		}
+	}
 }
+
 
 @media (max-width: 1199px) {
 	.a-masthead {
@@ -2568,6 +2663,7 @@
 				margin: 50px 0 24px;
 				h2 {
 					font-size:20px;
+					
 				}
 				i {
 					font-size:11px;
@@ -2643,6 +2739,94 @@
 						    }
 						}
 					}
+				}
+			}
+		}
+		.camera-provincia {
+			.camera-list-tempo {
+				.title-li {
+				 	.detail-title {
+				 		div {
+				 			span {
+				 				width: 68px !important;
+							    &:last-child {
+									width: 68px;
+								}
+				 			}
+				 		}
+				 	}
+				}
+			 	li {
+			  		.detail-title {
+			  			p {
+			  				max-width: 170px;
+			  				width: 100%;
+			  				margin-right: 20px;
+			  				flex-shrink: 0;
+			  			}
+		  				.image-title-holder {
+		  					max-width: 170px;
+		  					width: 100%;
+		  					flex-shrink: 0;
+		  					align-items: center;
+		  					margin-right: 20px;
+		  					justify-content: flex-start;
+		  				}
+			   			div {
+			    			span {
+							    width: 68px;
+							    &:last-child {
+									width: 68px;
+								}
+			    			}
+			   			}
+			  		}
+			  		ul{
+			  			li{ 
+			  				.image-title-holder {
+			  					max-width: 170px;
+			  					width: 100%;
+			  					flex-shrink: 0;
+			  					margin-right: 20px;
+			  					align-items: center;
+			  					justify-content: flex-start;
+			  				}
+			  				div{ 
+			  					span{
+									width: 68px;
+									&:last-child {
+										width: 68px;
+									}
+			  					}
+			  				}
+			  			}
+			  		}
+			  	}
+			  	.text-hidden {
+					color: #F5E5D5 !important;
+				}
+		  	}
+		}
+		.provincia-info {
+	  		display: flex;
+			width: 100%;
+			justify-content: center;
+			text-decoration: none;
+			flex-direction: column;
+			&>span {
+				display: block !important;
+				margin-bottom: 5px;
+				width: 100%;
+				font-family:Montserrat-Regular !important;
+				font-size:11px !important;
+				color:#000 !important;
+				letter-spacing:0;
+				width: auto !important;
+				padding: 0 !important;
+				text-align: left !important;
+				text-transform: initial !important;
+				&:before {
+					display: none !important;
 				}
 			}
 		}

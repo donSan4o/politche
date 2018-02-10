@@ -1004,7 +1004,8 @@ a {
         align-items: center !important; }
     #main .exitpoll-left .exitpoll-list-tempo li .detail-title-last h5 {
       width: auto;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      min-width: 110px; }
     #main .exitpoll-left .exitpoll-list-tempo li .detail-title-last div {
       width: 100%; }
   #main .exitpoll-left .exitpoll-list-tempo li ul .title-li .detail-title {
@@ -1312,7 +1313,7 @@ a {
               #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title div span:last-child {
                 margin-right: 3px; }
               #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title div .text-hidden {
-                color: #F5E5D5; }
+                color: #F5E5D5 !important; }
             #main .definitivi-left .definitivi-column-holder .definitivi-list li ul .title-li .detail-title p {
               font-family: Montserrat-Bold;
               font-size: 12px;
@@ -1406,6 +1407,14 @@ a {
       letter-spacing: 0;
       line-height: 22px;
       font-weight: 300; }
+      #main .camera-italia .after-columns-title h2 b {
+        font-size: 22px;
+        color: #356e89;
+        letter-spacing: 0;
+        line-height: 22px;
+        text-align: left;
+        font-weight: 300;
+        font-family: Montserrat-Light; }
     #main .camera-italia .after-columns-title i {
       font-family: Montserrat-Light;
       font-size: 12px;
@@ -1657,7 +1666,9 @@ a {
           text-align: right; }
   #main .camera-regione .regione-form {
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     #main .camera-regione .regione-form > div {
       width: 50%;
       padding-right: 15px; }
@@ -1667,6 +1678,14 @@ a {
         color: #244357;
         letter-spacing: 0;
         line-height: 15.6px; }
+    #main .camera-regione .regione-form .selects-block {
+      width: 100%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+      #main .camera-regione .regione-form .selects-block .selecter {
+        margin-left: 30px; }
     #main .camera-regione .regione-form form {
       padding-left: 15px;
       width: 50%;
@@ -2167,6 +2186,61 @@ a {
       text-align: left; }
     #main .exitpoll-aside .retrospettivi-list li span {
       padding: 0 26px; }
+  #main .camera-provincia .camera-list-tempo li .detail-title p {
+    max-width: 230px;
+    width: 100%;
+    margin-right: 40px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; }
+  #main .camera-provincia .camera-list-tempo li .detail-title .image-title-holder {
+    max-width: 230px;
+    width: 100%;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    -ms-flex-align: center;
+        align-items: center;
+    margin-right: 40px;
+    -ms-flex-pack: start;
+        justify-content: flex-start; }
+  #main .camera-provincia .camera-list-tempo li .detail-title div span {
+    width: 89px; }
+  #main .camera-provincia .camera-list-tempo li ul li div span {
+    width: 89px; }
+  #main .camera-provincia .camera-list-tempo li ul li .image-title-holder {
+    max-width: 230px;
+    width: 100%;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-right: 40px;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: start;
+        justify-content: flex-start; }
+  #main .camera-provincia .camera-list-tempo .text-hidden {
+    color: #F5E5D5 !important; }
+  #main .provincia-info {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: center;
+        justify-content: center;
+    text-decoration: none;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    #main .provincia-info > span {
+      display: block !important;
+      margin-bottom: 5px;
+      width: 100%;
+      font-family: Montserrat-Regular !important;
+      font-size: 13px !important;
+      color: #000 !important;
+      letter-spacing: 0;
+      width: auto !important;
+      padding: 0 !important;
+      text-align: left !important;
+      text-transform: initial !important; }
+      #main .provincia-info > span:before {
+        display: none !important; }
 
 @media (max-width: 1199px) {
   .a-masthead {
@@ -2462,7 +2536,70 @@ a {
         font-size: 11px; }
         #main .camera-italia .camera-list-tempo li ul li div span:nth-child(3) {
           font-family: Montserrat-Regular !important;
-          font-size: 20px !important; } }
+          font-size: 20px !important; }
+    #main .camera-provincia .camera-list-tempo .title-li .detail-title div span {
+      width: 68px !important; }
+      #main .camera-provincia .camera-list-tempo .title-li .detail-title div span:last-child {
+        width: 68px; }
+    #main .camera-provincia .camera-list-tempo li .detail-title p {
+      max-width: 170px;
+      width: 100%;
+      margin-right: 20px;
+      -ms-flex-negative: 0;
+          flex-shrink: 0; }
+    #main .camera-provincia .camera-list-tempo li .detail-title .image-title-holder {
+      max-width: 170px;
+      width: 100%;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      -ms-flex-align: center;
+          align-items: center;
+      margin-right: 20px;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+    #main .camera-provincia .camera-list-tempo li .detail-title div span {
+      width: 68px; }
+      #main .camera-provincia .camera-list-tempo li .detail-title div span:last-child {
+        width: 68px; }
+    #main .camera-provincia .camera-list-tempo li ul li .image-title-holder {
+      max-width: 170px;
+      width: 100%;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+      margin-right: 20px;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+    #main .camera-provincia .camera-list-tempo li ul li div span {
+      width: 68px; }
+      #main .camera-provincia .camera-list-tempo li ul li div span:last-child {
+        width: 68px; }
+    #main .camera-provincia .camera-list-tempo .text-hidden {
+      color: #F5E5D5 !important; }
+    #main .provincia-info {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      -ms-flex-pack: center;
+          justify-content: center;
+      text-decoration: none;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+      #main .provincia-info > span {
+        display: block !important;
+        margin-bottom: 5px;
+        width: 100%;
+        font-family: Montserrat-Regular !important;
+        font-size: 11px !important;
+        color: #000 !important;
+        letter-spacing: 0;
+        width: auto !important;
+        padding: 0 !important;
+        text-align: left !important;
+        text-transform: initial !important; }
+        #main .provincia-info > span:before {
+          display: none !important; } }
 
 @media (max-width: 768px) {
   .mobile-only {
