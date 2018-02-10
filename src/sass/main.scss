@@ -149,6 +149,7 @@
 		margin-right: 30px;
 		flex-shrink: 0;
 		h1 {
+			font-family: Montserrat-Light;
 			color:#1a171b;
 			line-height:31.2px;
 			font-weight: 400;
@@ -504,6 +505,7 @@
 		.title-exitpoll {
 			h1 {
 				i {
+					font-family: Montserrat-Light;
 					font-size:18px;
 					color:#244357;
 					letter-spacing:0;
@@ -919,6 +921,259 @@
 								letter-spacing:0;
 								line-height:16px;
 								text-align:center;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.definitivi-left {
+		.title-exitpoll-table {
+			.title-row {
+				justify-content: center;
+				padding: 5px 0;
+				height: auto;
+				span {
+					width: 50%;
+					font-family:Montserrat-Bold;
+					font-size:18px;
+					color:#416077;
+					letter-spacing:0;
+					line-height:15.6px;
+					text-align:center;
+					height: 20px;
+				}
+			}
+			&>div {
+				justify-content: center;
+				div {
+					width: 50%;
+					margin: 20px 0;
+					border-color: #ad9a88;
+					&:first-child {
+						span {
+							padding-left: 35px;	
+						}
+					}
+					span {
+						padding-left: 35px;
+					}
+					.view-more {
+						text-align: right;
+						padding-right: 25px;
+						margin-top: 12px;
+					}
+				}
+			}
+		}
+		.definitivi-column-holder {
+			display: flex;
+			justify-content: space-between;
+			padding-top: 17px;
+			border-top: 1px solid #244357;
+			.definitivi-list {
+				width: 50%;
+				padding: 0 15px;
+				border-right: 1px solid #ad9a88; 
+				&:last-child {
+					border: 0;
+				}
+				&>img {
+					margin-bottom: 85px;
+				}
+				h5 {
+					font-family:Montserrat-Bold;
+					font-size:11px;
+					color:#1a171b;
+					letter-spacing:0;
+					text-align:left;
+					flex-shrink: 0;
+					text-transform: uppercase;
+				}
+				li {
+					img {
+						width: 15px;
+						height: 15px;
+						margin-right: 13px;
+					}
+					.view-more {
+						display: block;
+						font-family:Montserrat-Bold;
+						font-size:13px;
+						color:#356e89;
+						letter-spacing:0;
+						line-height:15px;
+						margin: 25px 0;
+						text-align: right;
+						&:after {
+							content: '';
+							display: inline-block;
+							width: 6px;
+							height: 10px;
+							background: url(../images/arrow-right.png) no-repeat;
+							background-size: contain;
+							margin-left: 10px;
+						}
+					}
+					.detail-title {
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						padding-bottom: 11px;
+						border-bottom: 1px solid #ad9a88;
+						div {
+							width: 100%;
+							text-align: right;
+							span {
+								font-family:Montserrat-Regular;
+								font-size:12px;
+								color:#416077;
+								line-height:12px;
+								text-align:center;
+								position: relative;
+								margin-left: 16px;
+								&:last-child {
+									font-family:Montserrat-Bold;
+								}
+								&:first-child {
+									margin: 0;
+								}
+								&:before {
+									content: '';
+									left: 0;
+									right: 0;
+									margin: 0 auto;
+									top: -18px;
+									position: absolute;
+									font-family:Montserrat-Regular;
+									font-size:11px;
+									color:#ad9a88;
+									line-height:16px;
+								}
+								&:nth-child(1):before {
+									content: '%';
+								}
+								&:nth-child(2):before {
+									content: 'VOTI';
+								}
+								&:nth-child(3):before {
+									text-align: left;
+									left: -15px;
+									content: 'SEGGI';
+								}
+							}
+						}
+					}
+					ul {
+						padding-top: 30px;
+						.title-li {
+							border-bottom: 0;
+							width: 100%;
+							display: flex;
+							justify-content: space-between;
+							margin-bottom: 20px;
+							.detail-title {
+								width: 100%;
+								padding-bottom: 4px;
+								div {
+									margin-bottom: -47px;
+									span {
+										&:before {
+											top: -22px;
+										}
+										&:last-child {
+											margin-right: 3px;
+										}
+									}
+									.text-hidden {
+										color: #F5E5D5;
+									}
+								} 
+								p {
+									font-family:Montserrat-Bold;
+									font-size:12px;
+									color:#244357;
+									line-height:16px;
+									text-align:left;
+									margin: 0;
+									flex-shrink: 0; 
+								}
+							}
+						}
+						li {
+							min-height: 35px;
+							display: flex;
+							align-items: center;
+							justify-content: space-between;
+							padding: 8px 0;
+							border-bottom: 1px solid #ad9a88;
+							img {
+								width: 15px;
+								height: 15px;
+								margin-right: 13px;
+							}
+							div {
+								width: 100%;
+								text-align: right;
+								span {
+									font-family:Montserrat-Regular;
+									font-size:12px;
+									color:#416077;
+									line-height:12px;
+									text-align:center;
+									position: relative;
+									margin-left: 16px;
+									&:last-child {
+										font-family:Montserrat-Bold;
+										margin-right: 3px;
+									}
+									&:first-child {
+										margin: 0;
+									}
+								} 
+							}
+						}
+						.red-li {
+							margin-top: 25px;
+							border: none;
+							padding: 0; 
+							div {
+								span {
+									font-family:Montserrat-Regular;
+									font-size:12px;
+									color:#416077;
+									line-height:12px;
+									text-align:center;
+									position: relative;
+									margin-left: 16px;
+									&:first-child {
+										margin: 0;
+									}
+									&:before {
+										content: '';
+										left: 0;
+										right: 0;
+										margin: 0 auto;
+										top: -28px;
+										position: absolute;
+										font-family:Montserrat-Regular;
+										font-size:11px;
+										color:#ad9a88;
+										line-height:16px;
+									}
+									&:nth-child(1):before {
+										content: '%';
+									}
+									&:nth-child(2):before {
+										content: 'VOTI';
+									}
+									&:nth-child(3):before {
+										text-align: left;
+										left: -15px;
+										content: 'SEGGI';
+									}
+								} 
 							}
 						}
 					}
@@ -1753,6 +2008,144 @@
 				}
 			}
 		}
+		.definitivi-left {
+			.title-exitpoll-table {
+				.title-row {
+					span {
+						font-size:13.84px;
+						line-height:11.99px;
+						height: 15px;
+					}
+				}
+				&>div {
+					justify-content: center;
+					div {
+						margin: 17px 0;
+						&:first-child {
+							span {
+								padding-left: 0px;	
+							}
+						}
+						span {
+							padding-left: 13px;
+						}
+						.view-more {
+							padding-right: 14px;
+							margin-top: 6px;
+						}
+					}
+				}
+			}
+			.definitivi-column-holder {
+				padding-top: 14px;
+				.definitivi-list {
+					&>img {
+						margin-bottom: 55px;
+					}
+					li {
+						img {
+							width: 12px;
+							height: 12px;
+							margin-right: 8px;
+						}
+						.view-more {
+							font-size:12px;
+							margin: 22px 0;
+						}
+						.detail-title {
+							padding-bottom: 7px;
+							div {
+								span {
+									font-size:11px;
+									margin-left: 15px;
+									&:before {
+										top: -16px;
+										font-size:11px;
+										line-height: 12px;
+									}
+								}
+							}
+						}
+						ul {
+							.title-li {
+								margin-bottom: 20px;
+								.detail-title {
+									width: 100%;
+									padding-bottom: 4px;
+									div {
+										margin-bottom: -47px;
+										span {
+											&:before {
+												top: -22px;
+											}
+											&:last-child {
+												margin-right: 3px;
+											}
+										}
+									} 
+								}
+							}
+							li {
+								img {
+									width: 12px;
+									height: 12px;
+									margin-right: 8px;
+								}
+								div {
+									span {
+										font-size:11px;
+										color:#416077;
+										margin-left: 15px;
+										&:first-child {
+											margin: 0;
+										}
+									} 
+								}
+							}
+							.red-li {
+								margin-top: 25px;
+								border: none;
+								padding: 0; 
+								div {
+									span {
+										font-family:Montserrat-Regular;
+										font-size:12px;
+										color:#416077;
+										line-height:12px;
+										text-align:center;
+										position: relative;
+										margin-left: 16px;
+										&:before {
+											content: '';
+											left: 0;
+											right: 0;
+											margin: 0 auto;
+											top: -28px;
+											position: absolute;
+											font-family:Montserrat-Regular;
+											font-size:11px;
+											color:#ad9a88;
+											line-height:16px;
+										}
+										&:nth-child(1):before {
+											content: '%';
+										}
+										&:nth-child(2):before {
+											content: 'VOTI';
+										}
+										&:nth-child(3):before {
+											text-align: left;
+											left: -15px;
+											content: 'SEGGI';
+										}
+									} 
+								}
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }
 @media (max-width: 768px) {
@@ -1802,7 +2195,51 @@
 			max-width: 712px;
 			flex-shrink: 1;
 			margin: 0 auto; 
-			
+		}
+		.definitivi-left {
+			.title-exitpoll-table {
+				&>div {
+					div {
+						span {
+							padding-left: 40px;
+						}
+					}
+				}
+			}
+			.definitivi-column-holder {
+				padding-top: 14px;
+				.definitivi-list {
+					border: 0;
+					&>img {
+						margin-bottom: 55px;
+					}
+					li {
+						img {
+							width: 13px;
+							height: 13px;
+							margin-right: 10px;
+						}
+						ul {
+							.title-li {
+								.detail-title {
+									p {
+										font-size: 13px;
+									}
+								}
+							}
+							li {
+								img {
+									width: 13px;
+									height: 13px;
+									margin-right: 8px;
+								}
+								div {
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 		aside {
 			max-width: 714px;
