@@ -65,6 +65,8 @@
 		ul {
 			display: flex;
 			align-items: center;
+			font-family: sole_headline,Georgia,Times,"Times New Roman",serif;
+			font-weight: 700;
 			li {
 				margin-right: 21px;
 				padding: 0 10px;
@@ -149,18 +151,19 @@
 		margin-right: 30px;
 		flex-shrink: 0;
 		h1 {
-			font-family: Montserrat-Light;
+			font-family: sole_headline,Georgia,Times,"Times New Roman",serif;
 			color:#1a171b;
 			line-height:31.2px;
-			font-weight: 400;
+			font-weight: 500;
 			margin-bottom: 13px;
 		}
 		p {
+			font-family: sole_headline,Georgia,Times,"Times New Roman",serif;
 			font-size:18px;
 			color:#112531;
 			letter-spacing:0;
 			text-align:left;
-			font-weight: 300;
+			font-weight: 500;
 			margin-bottom: 29px;
 		}
 		.candidate-list {
@@ -175,7 +178,7 @@
 				align-items: center;
 				justify-content: space-between;
 				border-top: 2px solid #ad9a88;
-				padding: 18px 0;
+				padding: 28px 0 18px 0;
 				&:first-child {
 					border-top: 0;
 					.image-holder {
@@ -194,6 +197,7 @@
 						flex-shrink: 0;
 						align-self: flex-start;
 						margin-top: 14px;
+						font-weight: 600;
 						&:after {
 							content: '';
 							display: inline-block;
@@ -313,6 +317,7 @@
 							line-height:16px;
 							text-align:left;
 							font-style: normal;
+							font-weight:600;
 						}
 					}
 					p {
@@ -424,7 +429,7 @@
 							align-items: center;
 							justify-content: center;
 							padding: 0 35px;
-							font-size:12px;
+							font-size:13px;
 							color:#416077;
 							letter-spacing:0;
 							line-height:16px;
@@ -494,6 +499,9 @@
 							&.borders {
 								border-left: 1px solid #ad9a88;
 								border-right: 1px solid #ad9a88;
+							}
+							&.last-item {
+								font-size:24px;
 							}
 						}
 					}	
@@ -670,6 +678,7 @@
 								letter-spacing:0;
 								line-height:15.6px;
 								text-align:center;
+								text-transform: uppercase;
 							}
 							&:nth-child(1) {
 								font-family:Montserrat-SemiBold;
@@ -1640,7 +1649,7 @@
 					color:#244357;
 					line-height:16px;
 					text-transform: uppercase;
-					font-weight: 300;
+					font-weight: 600;
 				}
 				div {
 					display: flex;
@@ -1657,7 +1666,7 @@
 				}
 			}
 			li {
-				min-height: 35px;
+				min-height: 42px;
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
@@ -1668,6 +1677,7 @@
 					line-height:12px;
 					text-align:left;
 					text-transform: uppercase;
+					font-weight: 600;
 					&.padding-left-10px {
 						padding-left: 10px;
 						color:#356e89;
@@ -1676,12 +1686,12 @@
 				div {
 					display: flex;
 					span {
-						font-size:10px;
+						font-size:11px;
 						color:#000000;
 						letter-spacing:0;
 						line-height:12px;
 						text-align:center;
-						padding: 0 15px;
+						padding: 0 23px;
 						&:last-child {
 							border-left: 2px solid #ad9a88;
 						}
@@ -1697,6 +1707,7 @@
 				text-align: right;
 				margin-top: 14px;
 				margin-bottom: 29px;
+				font-weight: 600;
 				&:after {
 					content: '';
 					display: inline-block;
@@ -1727,6 +1738,7 @@
 					letter-spacing:0;
 					line-height:12px;
 					text-align:left;
+					text-transform: none;
 				}
 				div {
 					display: flex;
@@ -1746,8 +1758,11 @@
 			}
 			li {
 				p {
-					text-transform: none;
-					color:#356e89;
+					font-size: 11px;
+					color: #356E89;
+					line-height: 16px;
+					text-transform: lowercase;
+					font-weight: 600;
 				}
 				span {
 					padding-right: 5px;
@@ -1972,7 +1987,6 @@
 					color:#244357;
 					letter-spacing:0;
 					line-height:15.6px;
-					text-transform: uppercase;
 					margin-bottom: 0;
 				}
 				li {
@@ -2076,6 +2090,9 @@
 				div {
 					span {
 					    padding: 0px 25px;
+					    &.color-label {
+							color:#ad9a88;
+						}
 					}
 				}	
 			}
@@ -2085,7 +2102,7 @@
 					font-size:12px;
 					color:#356e89;
 					letter-spacing:0;
-					line-height:12px;
+					line-height:16px;
 					text-align:left;
 					text-transform: none;
 					span {
@@ -2097,6 +2114,7 @@
 						letter-spacing:0;
 						line-height:14px;
 						text-align:left;
+						font-weight: 300;
 					}
 				}
 				div {
@@ -3016,6 +3034,16 @@
 				.title-li {
 					border-bottom: 0;
 					width: 100%;
+					p {
+						border-bottom: 0;
+						width: 100%;
+						border-bottom: 0;
+						font-size: 13px;
+						color: #244357;
+						line-height: 16px;
+						text-transform: uppercase;
+						font-weight: 600;
+					}
 				}
 				li {
 					&.hidden {

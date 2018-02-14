@@ -54,6 +54,62 @@
   font-weight: 300;
   font-style: normal; }
 
+@font-face {
+  font-family: 'sole_headline_sc';
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Lt.eot");
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Lt.eot?#iefix") format("embedded-opentype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Lt.woff2") format("woff2"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Lt.woff") format("woff"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Lt.ttf") format("truetype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Lt.svg#SoleSerifHeadlineSC_W_Lt") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'sole_headline_sc';
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Rg.eot");
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Rg.eot?#iefix") format("embedded-opentype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Rg.woff2") format("woff2"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Rg.woff") format("woff"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Rg.ttf") format("truetype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Rg.svg#SoleSerifHeadlineSC_W_Rg") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'sole_headline_sc';
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Md.eot");
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Md.eot?#iefix") format("embedded-opentype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Md.woff2") format("woff2"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Md.woff") format("woff"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Md.ttf") format("truetype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Md.svg#SoleSerifHeadlineSC_W_Md") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'sole_headline_sc';
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.eot");
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.eot?#iefix") format("embedded-opentype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.woff2") format("woff2"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.woff") format("woff"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.ttf") format("truetype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadlineSC_W_Bd.svg#SoleSerifHeadlineSC_W_Bd") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'sole_headline';
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.eot");
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.eot?#iefix") format("embedded-opentype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.woff2") format("woff2"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.woff") format("woff"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.ttf") format("truetype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Lt.svg#SoleSerifHeadline_W_Lt") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'sole_headline';
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Rg.eot");
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Rg.eot?#iefix") format("embedded-opentype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Rg.woff2") format("woff2"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Rg.woff") format("woff"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Rg.ttf") format("truetype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Rg.svg#SoleSerifHeadline_W_Rg") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'sole_headline';
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Md.eot");
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Md.eot?#iefix") format("embedded-opentype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Md.woff2") format("woff2"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Md.woff") format("woff"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Md.ttf") format("truetype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Md.svg#SoleSerifHeadline_W_Md") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'sole_headline';
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.eot");
+  src: url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.eot?#iefix") format("embedded-opentype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.woff2") format("woff2"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.woff") format("woff"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.ttf") format("truetype"), url("http://c2.res.24o.it/fonts/w-fonts/SoleSerifHeadline_W_Bd.svg#SoleSerifHeadline_W_Bd") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
 /* Reset CSS */
 * {
   -webkit-text-size-adjust: none; }
@@ -445,7 +501,9 @@ a {
       display: -ms-flexbox;
       display: flex;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+      font-family: sole_headline,Georgia,Times,"Times New Roman",serif;
+      font-weight: 700; }
       .wrap-link .links-line ul li {
         margin-right: 21px;
         padding: 0 10px;
@@ -527,17 +585,18 @@ a {
     -ms-flex-negative: 0;
         flex-shrink: 0; }
     #main .left-part h1 {
-      font-family: Montserrat-Light;
+      font-family: sole_headline,Georgia,Times,"Times New Roman",serif;
       color: #1a171b;
       line-height: 31.2px;
-      font-weight: 400;
+      font-weight: 500;
       margin-bottom: 13px; }
     #main .left-part p {
+      font-family: sole_headline,Georgia,Times,"Times New Roman",serif;
       font-size: 18px;
       color: #112531;
       letter-spacing: 0;
       text-align: left;
-      font-weight: 300;
+      font-weight: 500;
       margin-bottom: 29px; }
     #main .left-part .candidate-list {
       border-top: 2px solid #244357;
@@ -553,7 +612,7 @@ a {
         -ms-flex-pack: justify;
             justify-content: space-between;
         border-top: 2px solid #ad9a88;
-        padding: 18px 0; }
+        padding: 28px 0 18px 0; }
         #main .left-part .candidate-list li:first-child {
           border-top: 0; }
           #main .left-part .candidate-list li:first-child .image-holder img {
@@ -570,7 +629,8 @@ a {
                 flex-shrink: 0;
             -ms-flex-item-align: start;
                 align-self: flex-start;
-            margin-top: 14px; }
+            margin-top: 14px;
+            font-weight: 600; }
             #main .left-part .candidate-list li:first-child .read-more:after {
               content: '';
               display: inline-block;
@@ -664,7 +724,8 @@ a {
               color: #244357;
               line-height: 16px;
               text-align: left;
-              font-style: normal; }
+              font-style: normal;
+              font-weight: 600; }
           #main .left-part .candidate-list li div p {
             font-family: Montserrat-Regular;
             font-size: 13px;
@@ -764,7 +825,7 @@ a {
           -ms-flex-pack: center;
               justify-content: center;
           padding: 0 35px;
-          font-size: 12px;
+          font-size: 13px;
           color: #416077;
           letter-spacing: 0;
           line-height: 16px;
@@ -825,6 +886,8 @@ a {
         #main .left-part .candidate-list-tempo li .detail-title div span.borders {
           border-left: 1px solid #ad9a88;
           border-right: 1px solid #ad9a88; }
+        #main .left-part .candidate-list-tempo li .detail-title div span.last-item {
+          font-size: 24px; }
   #main .exitpoll-left .title-exitpoll h1 i {
     font-family: Montserrat-Light;
     font-size: 18px;
@@ -974,7 +1037,8 @@ a {
         color: #ad9a88;
         letter-spacing: 0;
         line-height: 15.6px;
-        text-align: center; }
+        text-align: center;
+        text-transform: uppercase; }
       #main .exitpoll-left .exitpoll-list-tempo li .detail-title div span:nth-child(1) {
         font-family: Montserrat-SemiBold;
         font-size: 12px;
@@ -1769,7 +1833,7 @@ a {
           color: #244357;
           line-height: 16px;
           text-transform: uppercase;
-          font-weight: 300; }
+          font-weight: 600; }
         #main aside ul .title-li div {
           display: -ms-flexbox;
           display: flex; }
@@ -1782,7 +1846,7 @@ a {
             #main aside ul .title-li div span:last-child {
               border-left: 2px solid #ad9a88; }
       #main aside ul li {
-        min-height: 35px;
+        min-height: 42px;
         display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;
@@ -1795,7 +1859,8 @@ a {
           color: #244357;
           line-height: 12px;
           text-align: left;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          font-weight: 600; }
           #main aside ul li p.padding-left-10px {
             padding-left: 10px;
             color: #356e89; }
@@ -1803,12 +1868,12 @@ a {
           display: -ms-flexbox;
           display: flex; }
           #main aside ul li div span {
-            font-size: 10px;
+            font-size: 11px;
             color: #000000;
             letter-spacing: 0;
             line-height: 12px;
             text-align: center;
-            padding: 0 15px; }
+            padding: 0 23px; }
             #main aside ul li div span:last-child {
               border-left: 2px solid #ad9a88; }
       #main aside ul .view-more {
@@ -1819,7 +1884,8 @@ a {
         display: block;
         text-align: right;
         margin-top: 14px;
-        margin-bottom: 29px; }
+        margin-bottom: 29px;
+        font-weight: 600; }
         #main aside ul .view-more:after {
           content: '';
           display: inline-block;
@@ -1842,7 +1908,8 @@ a {
         color: #ad9a88;
         letter-spacing: 0;
         line-height: 12px;
-        text-align: left; }
+        text-align: left;
+        text-transform: none; }
       #main aside .without-borders .after-title-li div {
         display: -ms-flexbox;
         display: flex; }
@@ -1857,8 +1924,11 @@ a {
           #main aside .without-borders .after-title-li div span:last-child {
             border-left: 0; }
       #main aside .without-borders li p {
-        text-transform: none;
-        color: #356e89; }
+        font-size: 11px;
+        color: #356E89;
+        line-height: 16px;
+        text-transform: lowercase;
+        font-weight: 600; }
       #main aside .without-borders li span {
         padding-right: 5px; }
         #main aside .without-borders li span:last-child {
@@ -2050,7 +2120,6 @@ a {
         color: #244357;
         letter-spacing: 0;
         line-height: 15.6px;
-        text-transform: uppercase;
         margin-bottom: 0; }
       #main .left-part .candidate-map-holder .candidate-list li {
         -ms-flex-align: start;
@@ -2135,12 +2204,14 @@ a {
         margin-right: 5px; }
     #main .exitpoll-aside ul .title-li div span {
       padding: 0px 25px; }
+      #main .exitpoll-aside ul .title-li div span.color-label {
+        color: #ad9a88; }
   #main .exitpoll-aside ul li p {
     font-family: Montserrat-Bold;
     font-size: 12px;
     color: #356e89;
     letter-spacing: 0;
-    line-height: 12px;
+    line-height: 16px;
     text-align: left;
     text-transform: none; }
     #main .exitpoll-aside ul li p span {
@@ -2151,7 +2222,8 @@ a {
       color: #1a171b;
       letter-spacing: 0;
       line-height: 14px;
-      text-align: left; }
+      text-align: left;
+      font-weight: 300; }
   #main .exitpoll-aside ul li div span {
     padding: 0 19px;
     font-family: Montserrat-Regular;
@@ -2727,6 +2799,15 @@ a {
         #main aside .without-borders .title-li {
           border-bottom: 0;
           width: 100%; }
+          #main aside .without-borders .title-li p {
+            border-bottom: 0;
+            width: 100%;
+            border-bottom: 0;
+            font-size: 13px;
+            color: #244357;
+            line-height: 16px;
+            text-transform: uppercase;
+            font-weight: 600; }
         #main aside .without-borders li.hidden {
           display: none; }
         #main aside .without-borders li p {
