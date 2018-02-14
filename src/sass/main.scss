@@ -1626,7 +1626,74 @@
 			}
 		}
 	}
-
+	.estero {
+		.after-columns-title {
+			border-bottom: 1px solid #244357;
+			padding-bottom: 17px;
+			margin-bottom: 0;
+		}
+		.camera-list-tempo {
+			&>li {
+				padding-top: 0;
+			}
+		}
+		.title-exitpoll-table {
+			position: relative;
+			p {
+				text-transform: uppercase;
+			}
+			a {
+				position: absolute;
+				top: 40px;
+				left: 0;
+				font-size: 13px;
+			    color: #356e89;
+			    letter-spacing: 0;
+			    line-height: 15px;
+			    display: block;
+			    text-align: right;
+			    font-weight: 600;
+			    &:after {
+		    	    content: '';
+				    display: inline-block;
+				    width: 6px;
+				    height: 10px;
+				    background: url(../images/arrow-right.png) no-repeat;
+				    background-size: contain;
+				    margin-left: 10px;
+			    }
+			}
+		}
+		.regione-form {
+			form {
+				.select-holder {
+					flex-wrap: wrap;
+					margin-bottom: 120px;
+					span {
+						margin-left: 0; 
+						&.active {
+							font-family:Montserrat-Bold;
+							font-size:13px;
+							color:#416077;
+							letter-spacing:0;
+							line-height:32.5px;
+							text-align:left;
+							position: relative;
+							&:before {
+								content: '';
+								background:#416077;
+								width:195px;
+								height:3px;
+								position: absolute;
+								bottom: -1px;
+								left: 0;
+							}
+						}
+					}
+				}	
+			}
+		}
+	}
 	aside {
 		max-width: 300px;
 		width: 100%;
@@ -2846,6 +2913,12 @@
 				&:before {
 					display: none !important;
 				}
+			}
+		}
+		.estero {
+			.after-columns-title {
+				border-bottom: none;
+				padding-bottom: 0px;
 			}
 		}
 	}

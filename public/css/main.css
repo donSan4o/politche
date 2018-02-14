@@ -1810,6 +1810,57 @@ a {
           border-bottom: 1px solid #ad9a88; }
           #main .camera-regione .regione-form form .select-holder span:first-child {
             margin-left: 0; }
+  #main .estero .after-columns-title {
+    border-bottom: 1px solid #244357;
+    padding-bottom: 17px;
+    margin-bottom: 0; }
+  #main .estero .camera-list-tempo > li {
+    padding-top: 0; }
+  #main .estero .title-exitpoll-table {
+    position: relative; }
+    #main .estero .title-exitpoll-table p {
+      text-transform: uppercase; }
+    #main .estero .title-exitpoll-table a {
+      position: absolute;
+      top: 40px;
+      left: 0;
+      font-size: 13px;
+      color: #356e89;
+      letter-spacing: 0;
+      line-height: 15px;
+      display: block;
+      text-align: right;
+      font-weight: 600; }
+      #main .estero .title-exitpoll-table a:after {
+        content: '';
+        display: inline-block;
+        width: 6px;
+        height: 10px;
+        background: url(../images/arrow-right.png) no-repeat;
+        background-size: contain;
+        margin-left: 10px; }
+  #main .estero .regione-form form .select-holder {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 120px; }
+    #main .estero .regione-form form .select-holder span {
+      margin-left: 0; }
+      #main .estero .regione-form form .select-holder span.active {
+        font-family: Montserrat-Bold;
+        font-size: 13px;
+        color: #416077;
+        letter-spacing: 0;
+        line-height: 32.5px;
+        text-align: left;
+        position: relative; }
+        #main .estero .regione-form form .select-holder span.active:before {
+          content: '';
+          background: #416077;
+          width: 195px;
+          height: 3px;
+          position: absolute;
+          bottom: -1px;
+          left: 0; }
   #main aside {
     max-width: 300px;
     width: 100%; }
@@ -2671,7 +2722,10 @@ a {
         text-align: left !important;
         text-transform: initial !important; }
         #main .provincia-info > span:before {
-          display: none !important; } }
+          display: none !important; }
+    #main .estero .after-columns-title {
+      border-bottom: none;
+      padding-bottom: 0px; } }
 
 @media (max-width: 768px) {
   .mobile-only {
