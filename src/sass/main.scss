@@ -3453,6 +3453,68 @@
 					}
 				}
 			}
+			.candidate-list {
+			    border-top: 2px solid #ad9a88;
+				margin-bottom: 19px;
+				li {
+					padding: 9px 0 20px;
+					min-height: auto;
+				    border-top: 1px solid #ad9a88;
+				    &.border-bottom {
+				    	border-bottom: 2px solid #ad9a88;
+				    }
+					img {
+						width: 45px;
+						height: 45px;
+						margin-right: 10px;
+					}
+					div {
+						h3 {
+							font-family:Montserrat-Bold;
+							font-size:14px;
+							color:#244357;
+						}
+						span {
+							display: block;
+							font-family:Montserrat-Regular;
+							font-size:11px;
+							color:#ad9a88;
+							letter-spacing:0;
+							i {
+								display: block;
+								font-family:Montserrat-SemiBold;
+								font-size:12px;
+								color:#244357;
+								letter-spacing:0;
+								font-style: normal;
+							}
+						}
+						h5 {
+							font-family:Montserrat-SemiBold;
+							font-size:13px;
+							color:#1a171b;
+							letter-spacing:0;
+							margin: 0;
+						}
+						p {
+							font-family:Montserrat-Regular;
+							font-size:10px;
+							color:#1a171b;
+							letter-spacing:0;
+							line-height:14px;
+							margin-bottom: 5px;
+						}
+						.digits {
+							font-family:Montserrat-SemiBold;
+							font-size:13px;
+							color:#244357;
+							letter-spacing:0;
+							text-align:left;
+							margin: 0;
+						}
+					}
+				}
+			}
 		}
 	}
 }
