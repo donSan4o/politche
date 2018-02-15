@@ -2965,91 +2965,179 @@ a {
         margin: 0; }
         .wrap-link .links-line .socials a:last-child img {
           margin: 0; }
-  #main .left-part .title-exitpoll h1 {
-    text-align: center; }
-  #main .left-part .title-exitpoll span {
-    text-align: center;
-    margin-bottom: 20px; }
-  #main .left-part .title-exitpoll p {
-    font-family: Montserrat-Bold;
-    font-size: 16px;
-    color: #244357;
-    text-align: center;
-    margin-bottom: 20px; }
-  #main .left-part .title-exitpoll .buttons {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    padding-bottom: 19px;
-    border-bottom: 2px solid #244357;
-    margin-bottom: 9px; }
-    #main .left-part .title-exitpoll .buttons .btn {
-      background: #356e88;
-      border-radius: 64px;
-      width: 132px;
-      height: 28px;
+  #main {
+    padding: 0 19px; }
+    #main .left-part .title-exitpoll h1 {
+      text-align: center; }
+    #main .left-part .title-exitpoll span {
+      text-align: center;
+      margin-bottom: 20px; }
+    #main .left-part .title-exitpoll p {
+      font-family: Montserrat-Bold;
+      font-size: 16px;
+      color: #244357;
+      text-align: center;
+      margin-bottom: 20px; }
+    #main .left-part .buttons {
       display: -ms-flexbox;
       display: flex;
-      -ms-flex-align: center;
-          align-items: center;
       -ms-flex-pack: center;
           justify-content: center;
-      color: #fff;
-      margin-right: 20px; }
-    #main .left-part .title-exitpoll .buttons .desktop-link {
-      font-family: Montserrat-SemiBold;
-      font-size: 12px;
-      color: #356e89;
-      letter-spacing: 0;
-      line-height: 15px; }
-      #main .left-part .title-exitpoll .buttons .desktop-link:after {
-        content: '';
-        display: inline-block;
-        width: 6px;
-        height: 10px;
-        background: url(../images/arrow-right.png) no-repeat;
-        background-size: contain;
-        margin-left: 10px; }
-  #main .left-part .title-exitpoll-table .title-row {
-    border: 0;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
-    height: auto;
-    min-height: auto; }
-    #main .left-part .title-exitpoll-table .title-row > span {
-      border-left: 0;
-      width: 45%;
-      padding: 0;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-      border-bottom: 1.5px solid #ad9a88 !important;
-      font-family: Montserrat-SemiBold;
-      font-size: 13px;
-      color: #356e89;
-      letter-spacing: 0;
-      line-height: 30px;
-      text-align: left; }
-    #main .left-part .title-exitpoll-table .title-row > div {
-      width: 45%;
-      min-width: auto;
-      border: 0; }
-      #main .left-part .title-exitpoll-table .title-row > div span {
-        display: block;
-        padding: 0;
-        font-family: Montserrat-Regular;
-        font-size: 11px;
-        color: #ad9a88;
+      -ms-flex-align: center;
+          align-items: center;
+      padding-bottom: 19px;
+      border-bottom: 2px solid #244357;
+      margin-bottom: 9px; }
+      #main .left-part .buttons .btn {
+        background: #356e88;
+        border-radius: 64px;
+        width: 132px;
+        height: 28px;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+        color: #fff;
+        margin-right: 20px; }
+      #main .left-part .buttons .desktop-link {
+        font-family: Montserrat-SemiBold;
+        font-size: 12px;
+        color: #356e89;
         letter-spacing: 0;
-        text-align: left;
-        border: 0 !important; }
-        #main .left-part .title-exitpoll-table .title-row > div span i {
+        line-height: 15px; }
+        #main .left-part .buttons .desktop-link:after {
+          content: '';
+          display: inline-block;
+          width: 6px;
+          height: 10px;
+          background: url(../images/arrow-right.png) no-repeat;
+          background-size: contain;
+          margin-left: 10px; }
+      #main .left-part .buttons:last-child {
+        border: 0; }
+    #main .left-part .title-exitpoll-table .title-row {
+      border: 0;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      height: auto;
+      min-height: auto; }
+      #main .left-part .title-exitpoll-table .title-row > span {
+        border-left: 0;
+        width: 45%;
+        padding: 0;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+        border-bottom: 1.5px solid rgba(173, 154, 136, 0.5) !important;
+        font-family: Montserrat-SemiBold;
+        font-size: 13px;
+        color: #356e89;
+        letter-spacing: 0;
+        line-height: 30px;
+        text-align: left; }
+      #main .left-part .title-exitpoll-table .title-row > div {
+        width: 45%;
+        min-width: auto;
+        border: 0; }
+        #main .left-part .title-exitpoll-table .title-row > div span {
           display: block;
-          font-family: Montserrat-SemiBold;
-          font-size: 12px;
-          color: #244357;
+          padding: 0;
+          font-family: Montserrat-Regular;
+          font-size: 11px;
+          color: #ad9a88;
           letter-spacing: 0;
           text-align: left;
-          margin: 5px 0 8px; } }
+          border: 0 !important; }
+          #main .left-part .title-exitpoll-table .title-row > div span i {
+            display: block;
+            font-family: Montserrat-SemiBold;
+            font-size: 12px;
+            color: #244357;
+            letter-spacing: 0;
+            text-align: left;
+            margin: 5px 0 8px; }
+    #main .left-part .exitpol-mobile-list {
+      margin: 30px 0 20px;
+      border-bottom: 2px solid #ad9a88; }
+      #main .left-part .exitpol-mobile-list li {
+        border-top: 2px solid #ad9a88;
+        padding: 14px 0 20px; }
+        #main .left-part .exitpol-mobile-list li .image-title-holder {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+              align-items: center; }
+          #main .left-part .exitpol-mobile-list li .image-title-holder img {
+            width: 45px;
+            height: 45px;
+            margin-right: 10px; }
+          #main .left-part .exitpol-mobile-list li .image-title-holder h5 {
+            font-family: Montserrat-Bold;
+            font-size: 14px;
+            color: #244357;
+            letter-spacing: 0;
+            line-height: 16px;
+            text-transform: uppercase; }
+        #main .left-part .exitpol-mobile-list li .title-row {
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+          #main .left-part .exitpol-mobile-list li .title-row div {
+            width: 45%; }
+            #main .left-part .exitpol-mobile-list li .title-row div span {
+              display: block;
+              border-left: 0;
+              border-bottom: 1.5px solid rgba(173, 154, 136, 0.5) !important;
+              font-family: Montserrat-SemiBold;
+              font-size: 13px;
+              color: #356e89;
+              letter-spacing: 0;
+              line-height: 30px;
+              text-align: left;
+              margin-bottom: 5px; }
+            #main .left-part .exitpol-mobile-list li .title-row div i {
+              display: -ms-flexbox;
+              display: flex;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+              font-family: Montserrat-Regular;
+              font-size: 11px;
+              color: #ad9a88;
+              letter-spacing: 0;
+              line-height: 12px; }
+              #main .left-part .exitpol-mobile-list li .title-row div i b {
+                font-family: Montserrat-SemiBold;
+                font-size: 12px;
+                color: #244357;
+                letter-spacing: 0; }
+        #main .left-part .exitpol-mobile-list li.centrodestra {
+          margin-top: 30px;
+          border: 0; }
+          #main .left-part .exitpol-mobile-list li.centrodestra p {
+            font-family: Montserrat-Bold;
+            font-size: 16px;
+            color: #244357;
+            text-align: center;
+            position: relative; }
+            #main .left-part .exitpol-mobile-list li.centrodestra p:before {
+              content: '';
+              display: block;
+              width: 60px;
+              height: 2px;
+              background: #244357;
+              position: absolute;
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%); }
+            #main .left-part .exitpol-mobile-list li.centrodestra p:after {
+              content: '';
+              display: block;
+              width: 60px;
+              height: 2px;
+              background: #244357;
+              position: absolute;
+              right: 0;
+              top: 50%;
+              transform: translateY(-50%); } }
