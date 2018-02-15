@@ -3120,7 +3120,8 @@ a {
             font-size: 16px;
             color: #244357;
             text-align: center;
-            position: relative; }
+            position: relative;
+            margin-bottom: 4px; }
             #main .left-part .exitpol-mobile-list li.centrodestra p:before {
               content: '';
               display: block;
